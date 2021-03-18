@@ -18,19 +18,34 @@ public class Invoice {
         this.totalFee = totalFee;
         this.jobseeker = jobseeker;
     }
-
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa id invoice.
+    * @return id
+    */
    public int getId(){
         return id;
     }
     
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa idJob invoice.
+    * @return idJob
+    */
     public int getIdJob(){
         return idJob;
     }
     
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa tanggal invoice.
+    * @return date
+    */
     public String getDate(){
         return date;
     }
     
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa total fee invoice.
+    * @return totalFee
+    */
     public int getTotalFee(){
         return totalFee;
     }

@@ -16,10 +16,17 @@ public class DatabaseJob {
         this.listJob = listJob;
     }
     
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai true untuk addJob pada database job.
+    * @return true
+    */
     public boolean addJob(Job job){
     return true;
     }
-    
+        /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai true untuk removeJob pada database job.
+    * @return true
+    */
     public boolean removeJob(Job job){
     return true;
     }
