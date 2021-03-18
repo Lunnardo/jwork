@@ -1,3 +1,11 @@
+/**
+* Class Invoice berfungsi untuk mengambil nilai dan menampilkan output berupa
+* id, idJob, totalFee, tanggal, dan mengambil data dari kelas jobseeker.
+* seluruh class menggunakan fungsi asesor dan mutator untuk mengambil dan mengembalikan nilai
+*
+* @author Lunnardo Soekarno Lukias
+* @version 20210318
+*/
 public class Invoice {
     private int id, idJob, totalFee;
     private String date;

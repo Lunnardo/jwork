@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Job
+comment0.text=\r\n\ Class\ Job\ berfungsi\ untuk\ mengambil\ nilai\ dan\ menampilkan\ output\ berupa\r\n\ id,\ name,\ Fee,\ category,\ dan\ mengambil\ data\ dari\ kelas\ recruiter.\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor\ dan\ mutator\ untuk\ mengambil\ dan\ mengembalikan\ nilai\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
 comment1.params=id\ name\ recruiter\ Fee\ Category
 comment1.target=Job(int,\ java.lang.String,\ Recruiter,\ int,\ java.lang.String)
 comment10.params=fee

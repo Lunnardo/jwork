@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Jobseeker
+comment0.text=\r\n\ Class\ Jobseeker\ berfungsi\ untuk\ mengambil\ nilai\ dan\ menampilkan\ output\ berupa\r\n\ id,\ nama,\ email,\ password,\ dan\ tanggal\ masuk\ dari\ jobseeker\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor,\ mutator,\ dan\ fungsi\ untuk\ mencetak\ nama\ jobseeker\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
 comment1.params=id\ name\ email\ password\ joinDate
 comment1.target=Jobseeker(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment10.params=password
@@ -10,14 +11,19 @@ comment12.params=
 comment12.target=void\ printData()
 comment2.params=
 comment2.target=int\ getId()
+comment2.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ id\ jobseeker.\r\n\ @return\ this.id\r\n
 comment3.params=
 comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nama\ jobseeker.\r\n\ @return\ this.name\r\n
 comment4.params=
 comment4.target=java.lang.String\ getEmail()
+comment4.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ email\ jobseeker.\r\n\ @return\ this.email\r\n
 comment5.params=
 comment5.target=java.lang.String\ getPassword()
+comment5.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ password\ jobseeker.\r\n\ @return\ this.password\r\n
 comment6.params=
 comment6.target=java.lang.String\ getJoinDate()
+comment6.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ tanggal\ masuk\ jobseeker.\r\n\ @return\ this.joinDate\r\n
 comment7.params=id
 comment7.target=void\ setId(int)
 comment8.params=name

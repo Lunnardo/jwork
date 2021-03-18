@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Location
+comment0.text=\r\n\ Class\ Location\ berfungsi\ untuk\ mengambil\ nilai\ dan\ menampilkan\ output\ berupa\r\n\ id,\ name,\ email,\ phonenumber,\ mengambil\ data\ dari\ kelas\ location,\ dan\ menampilkan\ output\ berupa\ nama\ recruiter\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor\ dan\ mutator\ untuk\ mengambil\ dan\ mengembalikan\ nilai\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
 comment1.params=province\ city\ description
 comment1.target=Location(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment2.params=

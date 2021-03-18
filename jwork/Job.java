@@ -1,3 +1,11 @@
+/**
+* Class Job berfungsi untuk mengambil nilai dan menampilkan output berupa
+* id, name, Fee, category, dan mengambil data dari kelas recruiter.
+* seluruh class menggunakan fungsi asesor dan mutator untuk mengambil dan mengembalikan nilai
+*
+* @author Lunnardo Soekarno Lukias
+* @version 20210318
+*/
 public class Job {
     private int id, fee;
     private String name, category;

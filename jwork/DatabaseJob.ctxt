@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=DatabaseJob
+comment0.text=\r\n\ Class\ DatabaseJob\ berfungsi\ untuk\ menampilkan\ daftar\ listjob\ yang\ ada\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor\ dan\ mutator\ untuk\ mengambil\ dan\ mengembalikan\ nilai\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
 comment1.params=
 comment1.target=DatabaseJob()
 comment2.params=listJob

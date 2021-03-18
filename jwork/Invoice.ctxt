@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Invoice
+comment0.text=\r\n\ Class\ Invoice\ berfungsi\ untuk\ mengambil\ nilai\ dan\ menampilkan\ output\ berupa\r\n\ id,\ idJob,\ totalFee,\ tanggal,\ dan\ mengambil\ data\ dari\ kelas\ jobseeker.\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor\ dan\ mutator\ untuk\ mengambil\ dan\ mengembalikan\ nilai\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
 comment1.params=id\ idJob\ date\ totalFee\ jobseeker
 comment1.target=Invoice(int,\ int,\ java.lang.String,\ int,\ Jobseeker)
 comment10.params=

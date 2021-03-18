@@ -1,3 +1,11 @@
+/**
+* Class Location berfungsi untuk mengambil nilai dan menampilkan output berupa
+* id, name, email, phonenumber, mengambil data dari kelas location, dan menampilkan output berupa nama recruiter
+* seluruh class menggunakan fungsi asesor dan mutator untuk mengambil dan mengembalikan nilai
+*
+* @author Lunnardo Soekarno Lukias
+* @version 20210318
+*/
 public class Location {
     private String province, city, description;
 
