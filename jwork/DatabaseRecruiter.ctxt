@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DatabaseRecruiter
+comment0.text=\r\n\ Class\ DatabaseJob\ berfungsi\ untuk\ menampilkan\ daftar\ listjob\ yang\ ada\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor\ dan\ mutator\ untuk\ mengambil\ dan\ mengembalikan\ nilai\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
+comment1.params=
+comment1.target=DatabaseRecruiter()
+comment1.text=\r\n\ Method\ ini\ digunakan\ untuk\ mendeklarasikan\ objek\ baru\ bernama\ listRecruiter\ yang\ didalamnya\ dapat\ memuat\ string\ hingga\ 100.\r\n
+comment2.params=listRecruiter
+comment2.target=DatabaseRecruiter(java.lang.String[])
+comment2.text=\r\n\ Method\ mutator\ ini\ digunakan\ untuk\ mendeklarasikan\ nilai\ String[]\ listRecruiter\ akan\ dimasukkan\ ke\ dalam\ variabel\ listRecruiter.\r\n
+comment3.params=recruiter
+comment3.target=boolean\ addRecruiter(Recruiter)
+comment3.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ true\ untuk\ addRecruiter\ pada\ database\ recruiter.\r\n\ @return\ true\r\n
+comment4.params=recruiter
+comment4.target=boolean\ removeRecruiter(Recruiter)
+comment4.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ true\ untuk\ removeRecruiter\ pada\ database\ recruiter.\r\n\ @return\ true\r\n
+comment5.params=
+comment5.target=Job\ getRecruiter()
+comment5.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ null\ untuk\ getRecruiter\ pada\ database\ recruiter.\r\n\ @return\ null\r\n
+comment6.params=
+comment6.target=java.lang.String[]\ getListRecruiter()
+comment6.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ dari\ listJob\ untuk\ getListJob\ pada\ database\ job.\r\n\ @return\ true\r\n
+numComments=7

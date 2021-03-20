@@ -57,27 +57,44 @@ public class Jobseeker{
     public String getJoinDate(){
         return this.joinDate;
     }
-
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setId adalah nilai kembalian dari this.id 
+    * yang didapat dari nilai id yang dimasukkan pada saat method ini dipanggil
+    */
     public void setId(int id){
         this.id = id;
     }
-
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setName adalah nilai kembalian dari this.name 
+    * yang didapat dari nilai name yang dimasukkan pada saat method ini dipanggil
+    */
     public void setName(String name){
         this.name = name;
     }
-
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setEmail adalah nilai kembalian dari this.email 
+    * yang didapat dari nilai email yang dimasukkan pada saat method ini dipanggil
+    */
     public void setEmail(String email){
         this.email = email;
     }
-
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setPassword adalah nilai kembalian dari this.password 
+    * yang didapat dari nilai password yang dimasukkan pada saat method ini dipanggil
+    */
     public void setPassword(String password){
         this.password = password;
     }
-
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setJoinDate adalah nilai kembalian dari this.joinDate 
+    * yang didapat dari nilai joinDate yang dimasukkan pada saat method ini dipanggil
+    */
     public void setJoinDate(String joinDate){
         this.joinDate = joinDate;
     }
-    
+    /**
+    * Method ini berfungsi untuk menampilkan isi dari method getName pada class Jobseeker
+    */
     public void printData(){
         System.out.println(getName());
     }
