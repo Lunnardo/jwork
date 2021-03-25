@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DatabaseJobseeker
+comment0.text=\r\n\ Class\ DatabaseJobseeker\ berfungsi\ untuk\ menampilkan\ daftar\ listjobseeker\ yang\ ada\r\n\ seluruh\ class\ menggunakan\ fungsi\ asesor\ dan\ mutator\ untuk\ mengambil\ dan\ mengembalikan\ nilai\r\n\r\n\ @author\ Lunnardo\ Soekarno\ Lukias\r\n\ @version\ 20210318\r\n
+comment1.params=recruiter
+comment1.target=boolean\ addJobseeker(Recruiter)
+comment1.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ true\ untuk\ addJobseeker\ pada\ database\ Jobseeker.\r\n\ @return\ true\r\n
+comment2.params=recruiter
+comment2.target=boolean\ removeJobseeker(Recruiter)
+comment2.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ true\ untuk\ removeJobseeker\ pada\ database\ rJobseeker.\r\n\ @return\ true\r\n
+comment3.params=
+comment3.target=Job\ getJobseeker()
+comment3.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ null\ untuk\ getJobseeker\ pada\ database\ Jobseeker.\r\n\ @return\ null\r\n
+comment4.params=
+comment4.target=java.lang.String[]\ getListJobseeker()
+comment4.text=\r\n\ Method\ asesor\ ini\ digunakan\ untuk\ mengembalikan\ nilai\ berupa\ nilai\ dari\ listJob\ untuk\ getListJobseeker\ pada\ database\ Jobseeker.\r\n\ @return\ listJobseeker\r\n
+numComments=5

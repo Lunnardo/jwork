@@ -6,22 +6,7 @@
 * @version 20210318
 */
 public class DatabaseJob {
-    private String[] listJob;
-    
-    
-    /**
-    * Method ini digunakan untuk mendeklarasikan objek baru bernama listJob yang didalamnya dapat memuat string hingga 100.
-    */
-    public DatabaseJob(){
-       listJob = new String[100];
-    }
-    
-    /**
-    * Method mutator ini digunakan untuk mendeklarasikan nilai String[] listJob akan dimasukkan ke dalam variabel listJob.
-    */
-    public DatabaseJob(String[] listJob){
-        this.listJob = listJob;
-    }
+    private static String[] listJob;
     
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai true untuk addJob pada database job.
@@ -49,7 +34,7 @@ public class DatabaseJob {
     * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai dari listJob untuk getListJob pada database job.
     * @return true
     */
-    public String[] getListJob(){
+    public static String[] getListJob(){
         return listJob;
     }
 }

@@ -8,15 +8,16 @@
 */
 public class Job {
     private int id, fee;
-    private String name, category;
+    private String name;
     private Recruiter recruiter;
+    private JobCategory category;
     
     /**
     * Field ini berfungsi untuk mendeklarasikan semua nilai yang akan dipakai pada method yang ada dibawahnya
     * Field ini bersifat mutator dimana semua nilai yang ditambahkan this dapat diubah secara manual per classnya
     * tanpa perlu menambahkannya dari class jwork
     */
-    public Job(int id, String name, Recruiter recruiter, int Fee, String Category){
+    public Job(int id, String name, Recruiter recruiter, int fee, JobCategory category){
         this.id = id;
         this.name = name; 
         this.recruiter = recruiter;
@@ -48,7 +49,7 @@ public class Job {
     /**
     * Method accessor ini mendeklarasikan bahwa isi dari method getCategory adalah nilai kembalian dari category
     */
-    public String getCategory()
+    public JobCategory getCategory()
     {
         return category;
     }
@@ -95,7 +96,7 @@ public class Job {
     * Method mutator ini mendeklarasikan bahwa isi dari method setCategory adalah nilai kembalian dari this.category yang didapat dari nilai category
     * yang dimasukkan pada saat method ini dipanggil
     */
-    public void setCategory(String category)
+    public void setCategory(JobCategory category)
     {
         this.category = category;
     }
@@ -104,8 +105,13 @@ public class Job {
     */
     public void printData()
     {
-        System.out.println(getName());
+        System.out.println("===================== JOB =====================");
+        System.out.print("ID: " + id + "\n");
+        System.out.print("Name: " + name + "\n");
+        System.out.print("Recruiter: " + recruiter.getName() + "\n" );
+        System.out.print("City: " + recruiter.getLocation().getCity() + "\n" );
+        System.out.print("Fee: " + fee + "\n" );
+        System.out.print("Category: " + category + "\n");
     }
-    
 
 }
