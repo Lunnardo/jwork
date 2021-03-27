@@ -10,13 +10,18 @@ public class Invoice {
     private int id, idJob, totalFee;
     private String date;
     private Jobseeker jobseeker;
+    private PaymentType paymentType;
+    private InvoiceStatus status;
     
-    public Invoice(int id, int idJob,String date, int totalFee, Jobseeker jobseeker){
+    public Invoice(int id, int idJob,String date, int totalFee, Jobseeker jobseeker, PaymentType paymentType,InvoiceStatus status){
         this.id = id;
         this.idJob = idJob; 
         this.date = date;
         this.totalFee = totalFee;
         this.jobseeker = jobseeker;
+        this.paymentType = paymentType;
+        this.status = status;
+        
     }
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa id invoice.
@@ -48,6 +53,22 @@ public class Invoice {
     */
     public int getTotalFee(){
         return totalFee;
+    }
+    
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa jenis pembayaran.
+    * @return paymentType
+    */
+    public PaymentType getPaymentType(){
+        return paymentType;
+    }
+    
+    /**
+    * Method asesor ini digunakan untuk mengembalikan nilai berupa status invoice.
+    * @return status
+    */
+    public InvoiceStatus getInvoiceStatus(){
+        return status;
     }
     
     /**
@@ -93,11 +114,33 @@ public class Invoice {
     public void setJobseeker(Jobseeker jobseeker) {
         this.jobseeker = jobseeker;
     }
+    
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
+    * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
+    */
+    public void setPaymentType(PaymentType paymentType) {
+        this.paymentType = paymentType;
+    }
+    /**
+    * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
+    * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
+    */
+    public void setInvoiceStatus(InvoiceStatus status) {
+        this.status = status;
+    }
+    
     /**
     * Method ini berfungsi untuk menampilkan isi dari method getTotalFee pada class Invoice
     */
     public void printData(){
-    System.out.println(getTotalFee());
+     System.out.println("===================== INVOICE =====================");
+        System.out.print("ID: " + id + "\n");
+        System.out.print("ID Job: " + idJob+ "\n");
+        System.out.print("Date: " + getDate() + "\n" );
+        System.out.print("Seeker: " + jobseeker.getName() + "\n" );
+        System.out.print("Fee: " + totalFee + "\n" );
+        System.out.print("Status: " + status + "\n");
     }
 
 }

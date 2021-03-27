@@ -23,7 +23,7 @@ public class Jwork
     */
     public static void main(String[] args)
     {
-        System.out.println("Case Study Modul 3");
+        System.out.println("Pos Test Study Modul 3");
         //for (JobCategory jobCategory : JobCategory.values())
         //{
            // System.out.println(jobCategory);
@@ -44,19 +44,20 @@ public class Jwork
         Recruiter recruite1 = new Recruiter(1, "Lunnardo", "lunnardo@gmail.com", "08121234567", location1);
         //System.out.println(recruite1.getEmail());
         
-        Job job1 = new Job(1,"Senior Designer", recruite1, 1000000, JobCategory.WebDeveloper);
+        Job job1 = new Job(2,"Senior Designer", recruite1, 1000000, JobCategory.WebDeveloper);
         //System.out.println(job1.getName());
         
-        //Jobseeker jobseeke1 = new Jobseeker(1, "Asep", "asep@gmail.com", "password", "14-03-2021");
+        Jobseeker jobseeke1 = new Jobseeker(1, "Fajar", "gajar@gmail.com", "password", "14-03-2021");
         //System.out.println(jobseeke1.getName());
         
-        //Invoice invoice1 = new Invoice(1, 2, "12 Maret 2021", 2, jobseeke1);
+        Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
         //System.out.println(invoice1.getDate());
         
         //System.out.println(recruite1.getName());
         //recruite1.setName("Hansaka Wijaya");
         //System.out.println(recruite1.getName());
         
-        job1.printData();
+        //job1.printData();
+        invoice1.printData();
     }
 }
