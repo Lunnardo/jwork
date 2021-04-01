@@ -23,7 +23,7 @@ public class Jwork
     */
     public static void main(String[] args)
     {
-        System.out.println("Pos Test Study Modul 3");
+        System.out.println("Case Study Modul 4");
         //for (JobCategory jobCategory : JobCategory.values())
         //{
            // System.out.println(jobCategory);
@@ -44,13 +44,21 @@ public class Jwork
         Recruiter recruite1 = new Recruiter(1, "Lunnardo", "lunnardo@gmail.com", "08121234567", location1);
         //System.out.println(recruite1.getEmail());
         
-        Job job1 = new Job(2,"Senior Designer", recruite1, 1000000, JobCategory.WebDeveloper);
+        Job job1 = new Job(2,"Web Developer", recruite1, 20000, JobCategory.WebDeveloper);
         //System.out.println(job1.getName());
         
-        Jobseeker jobseeke1 = new Jobseeker(1, "Fajar", "gajar@gmail.com", "password", "14-03-2021");
+        Jobseeker jobseeke1 = new Jobseeker(1, "Lunnardo", "gajar@gmail.com", "password", "14-03-2021");
         //System.out.println(jobseeke1.getName());
         
-        Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
+        Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
+        Bonus bonus2 = new Bonus (20, "PROMO2", 20000, 18000, true);
+
+        EwalletPayment invoice1 = new EwalletPayment(1, job1, "13 Desember 2021",jobseeke1, InvoiceStatus.OnGoing);
+        EwalletPayment invoice2 = new EwalletPayment(2, job1, "14 Desember 2021",jobseeke1, InvoiceStatus.OnGoing, bonus1);
+        EwalletPayment  invoice3 = new EwalletPayment(3, job1, "15 Desember 2021",jobseeke1, InvoiceStatus.OnGoing, bonus2);
+        
+        
+        //Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
         //System.out.println(invoice1.getDate());
         
         //System.out.println(recruite1.getName());
@@ -58,6 +66,12 @@ public class Jwork
         //System.out.println(recruite1.getName());
         
         //job1.printData();
+        //invoice1.printData();
+        
         invoice1.printData();
+        invoice2.printData();
+        System.out.println("\n");
+        invoice3.printData();
+        
     }
 }

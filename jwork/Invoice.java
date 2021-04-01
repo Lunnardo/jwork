@@ -6,22 +6,22 @@
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
-public class Invoice {
-    private int id, idJob, totalFee;
+public abstract class Invoice {
+    private int id;
+    private int idJob;  
+    protected  int totalFee;
     private String date;
     private Jobseeker jobseeker;
     private PaymentType paymentType;
-    private InvoiceStatus status;
+    private InvoiceStatus invoiceStatus;
+    private Job job;
     
-    public Invoice(int id, int idJob,String date, int totalFee, Jobseeker jobseeker, PaymentType paymentType,InvoiceStatus status){
+    public Invoice(int id,Job job, String date, Jobseeker jobseeker,InvoiceStatus invoiceStatus){
         this.id = id;
-        this.idJob = idJob; 
+        this.job = job;
         this.date = date;
-        this.totalFee = totalFee;
         this.jobseeker = jobseeker;
-        this.paymentType = paymentType;
-        this.status = status;
-        
+        this.invoiceStatus = invoiceStatus;
     }
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa id invoice.
@@ -35,8 +35,8 @@ public class Invoice {
     * Method asesor ini digunakan untuk mengembalikan nilai berupa idJob invoice.
     * @return idJob
     */
-    public int getIdJob(){
-        return idJob;
+    public Job getJob(){
+        return job;
     }
     
     /**
@@ -59,16 +59,14 @@ public class Invoice {
     * Method asesor ini digunakan untuk mengembalikan nilai berupa jenis pembayaran.
     * @return paymentType
     */
-    public PaymentType getPaymentType(){
-        return paymentType;
-    }
+    public abstract PaymentType getPaymentType();
     
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa status invoice.
     * @return status
     */
     public InvoiceStatus getInvoiceStatus(){
-        return status;
+        return invoiceStatus;
     }
     
     /**
@@ -82,8 +80,8 @@ public class Invoice {
     * Method mutator ini mendeklarasikan bahwa isi dari method setIdJobs adalah nilai kembalian dari this.idJob yang didapat dari nilai idJobs
     * yang dimasukkan pada saat method ini dipanggil
     */
-    public void setIdJobs(int idJobs){
-        this.idJob = idJobs;
+    public void setJob(Job job){
+        this.job = job;
     }
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setDate adalah nilai kembalian dari this.date yang didapat dari nilai date
@@ -96,9 +94,7 @@ public class Invoice {
     * Method mutator ini mendeklarasikan bahwa isi dari method setTotalFee adalah nilai kembalian dari this.totalFee 
     * yang didapat dari nilai totalFee yang dimasukkan pada saat method ini dipanggil
     */
-    public void setTotalFee(int totalFee){
-        this.totalFee = totalFee;
-    }
+    public abstract void setTotalFee();
     
     /**
     * Method accessor ini mendeklarasikan bahwa isi dari method getJobseeker adalah nilai kembalian dari jobseeker
@@ -118,21 +114,25 @@ public class Invoice {
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
     * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
-    */
+    
     public void setPaymentType(PaymentType paymentType) {
         this.paymentType = paymentType;
-    }
+    } */
+    
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
     * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
     */
     public void setInvoiceStatus(InvoiceStatus status) {
-        this.status = status;
+        this.invoiceStatus = invoiceStatus;
     }
+
+    public abstract void printData(); 
+    
     
     /**
     * Method ini berfungsi untuk menampilkan isi dari method getTotalFee pada class Invoice
-    */
+    
     public void printData(){
      System.out.println("===================== INVOICE =====================");
         System.out.print("ID: " + id + "\n");
@@ -140,7 +140,7 @@ public class Invoice {
         System.out.print("Date: " + getDate() + "\n" );
         System.out.print("Seeker: " + jobseeker.getName() + "\n" );
         System.out.print("Fee: " + totalFee + "\n" );
-        System.out.print("Status: " + status + "\n");
-    }
+        System.out.print("Status: " + invoiceStatus + "\n");
+    }*/
 
 }
