@@ -53,9 +53,9 @@ public class Jwork
         Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
         Bonus bonus2 = new Bonus (20, "PROMO2", 20000, 18000, true);
 
-        EwalletPayment invoice1 = new EwalletPayment(1, job1, "13 Desember 2021",jobseeke1, InvoiceStatus.OnGoing);
-        EwalletPayment invoice2 = new EwalletPayment(2, job1, "14 Desember 2021",jobseeke1, InvoiceStatus.OnGoing, bonus1);
-        EwalletPayment  invoice3 = new EwalletPayment(3, job1, "15 Desember 2021",jobseeke1, InvoiceStatus.OnGoing, bonus2);
+        EwalletPayment invoice1 = new EwalletPayment(1, job1, "13 Desember 2021",jobseeke1, InvoiceStatus.Finished);
+        EwalletPayment invoice2 = new EwalletPayment(2, job1, "14 Desember 2021",jobseeke1, InvoiceStatus.Finished, bonus1);
+        EwalletPayment  invoice3 = new EwalletPayment(3, job1, "15 Desember 2021",jobseeke1, InvoiceStatus.Finished, bonus2);
         
         
         //Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
@@ -67,8 +67,9 @@ public class Jwork
         
         //job1.printData();
         //invoice1.printData();
-        
+        System.out.println("\n");
         invoice1.printData();
+        System.out.println("\n");
         invoice2.printData();
         System.out.println("\n");
         invoice3.printData();
