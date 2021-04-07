@@ -23,7 +23,7 @@ public class Jwork
     */
     public static void main(String[] args)
     {
-        System.out.println("Case Study Modul 4");
+        System.out.println("Post Test Modul 4");
         //for (JobCategory jobCategory : JobCategory.values())
         //{
            // System.out.println(jobCategory);
@@ -67,12 +67,19 @@ public class Jwork
         
         //job1.printData();
         //invoice1.printData();
+        //System.out.println("\n");
+        //invoice1.printData();
+        //System.out.println("\n");
+        //invoice2.printData();
+        //System.out.println("\n");
+        //invoice3.printData();
+        BankPayment bank1 = new BankPayment(1, job1, "3 April 2021", jobseeke1, InvoiceStatus.Finished);
+
+        BankPayment bank2 = new BankPayment(1, job1, "3 April 2021", jobseeke1, InvoiceStatus.Finished, 2000);
+
+        bank1.printData();
         System.out.println("\n");
-        invoice1.printData();
-        System.out.println("\n");
-        invoice2.printData();
-        System.out.println("\n");
-        invoice3.printData();
+        bank2.printData();
         
     }
 }
