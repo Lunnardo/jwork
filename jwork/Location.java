@@ -75,4 +75,10 @@ public class Location {
     {
         System.out.println(getProvince());
     }
+    
+    public String toString()
+    {
+        return ("Provinsi = " + getProvince() + "\nKota = " + getCity() + "\nDeskripsi = " + getDescription());
+    }
+    
 }

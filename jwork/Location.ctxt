@@ -25,4 +25,6 @@ comment7.text=\r\n\ Method\ mutator\ ini\ mendeklarasikan\ bahwa\ isi\ dari\ met
 comment8.params=
 comment8.target=void\ printData()
 comment8.text=\r\n\ Method\ ini\ berfungsi\ untuk\ menampilkan\ isi\ dari\ method\ getProvince\ pada\ class\ Location\r\n
-numComments=9
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

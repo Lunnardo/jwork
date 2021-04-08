@@ -114,5 +114,9 @@ public class Recruiter {
         System.out.println(getName());
     }
     
+    public String toString()
+    {
+        return ("Id = " + id + "\nNama = " + name + "\nNomor Telfon = " + getPhoneNumber() + "\nLocation = " + location.getCity());
+    }
 
 }

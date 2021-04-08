@@ -113,5 +113,9 @@ public class Job {
         System.out.print("Fee: " + fee + "\n" );
         System.out.print("Category: " + category + "\n");
     }
-
+    
+     public String toString()
+    {
+        return ("Id = " + id + "\nNama = " + name + "\nRecruiter = " + recruiter.getName() + "\nCity = " + recruiter.getLocation() + "\nFee = " + fee + "\nCategory = " +category);
+    }
 }

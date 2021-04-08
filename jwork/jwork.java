@@ -6,6 +6,9 @@
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 public class Jwork
 {
     /**
@@ -23,7 +26,7 @@ public class Jwork
     */
     public static void main(String[] args)
     {
-        System.out.println("Post Test Modul 4");
+        System.out.println("Case Study Modul 5");
         //for (JobCategory jobCategory : JobCategory.values())
         //{
            // System.out.println(jobCategory);
@@ -47,7 +50,9 @@ public class Jwork
         Job job1 = new Job(2,"Web Developer", recruite1, 20000, JobCategory.WebDeveloper);
         //System.out.println(job1.getName());
         
-        Jobseeker jobseeke1 = new Jobseeker(1, "Lunnardo", "gajar@gmail.com", "password", "14-03-2021");
+        Calendar calendar = Calendar.getInstance();
+        Jobseeker jobseeke1 = new Jobseeker(1, "Lunnardo", "gajar@gmail.com", "lunnardo",2000, 06, 15 );
+        
         //System.out.println(jobseeke1.getName());
         
         Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
@@ -77,9 +82,25 @@ public class Jwork
 
         BankPayment bank2 = new BankPayment(1, job1, "3 April 2021", jobseeke1, InvoiceStatus.Finished, 2000);
 
-        bank1.printData();
-        System.out.println("\n");
-        bank2.printData();
+        //bank1.printData();
+       //System.out.println("\n");
+        //bank2.printData();
+        //System.out.println("\n");
+        //System.out.println(jobseeke1.toString());
+        //System.out.println("\n");
+        //System.out.println(job1.toString());
+        //System.out.println("\n");
+        //System.out.println(recruite1.toString());
+        //System.out.println("\n");
+        //System.out.println(location1.toString());
+        //System.out.println("\n");
+        //System.out.println(bonus1.toString());
         
+        Jobseeker jobseeker1 = new Jobseeker(1, "Lunnardo", "lunnardo.soekarno", "lunnardo", new GregorianCalendar(2021, 01, 8));
+        Jobseeker jobseeker2 = new Jobseeker(2, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2.-", 2021, 03, 8);
+        Jobseeker jobseeker3 = new Jobseeker(3, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2-.");
+        System.out.println(jobseeker1.toString());
+        System.out.println(jobseeker2.toString());
+        System.out.println(jobseeker3.toString());
     }
 }
