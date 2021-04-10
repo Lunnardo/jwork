@@ -26,7 +26,7 @@ public class Jwork
     */
     public static void main(String[] args)
     {
-        System.out.println("Case Study Modul 5");
+        System.out.println("Post Test Modul 5");
         //for (JobCategory jobCategory : JobCategory.values())
         //{
            // System.out.println(jobCategory);
