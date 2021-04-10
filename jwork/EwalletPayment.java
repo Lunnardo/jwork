@@ -3,14 +3,14 @@ public class EwalletPayment extends Invoice {
     private Bonus bonus;
     private static PaymentType PAYMENT_TYPE = PaymentType.EwalletPayment;
     
-    public EwalletPayment(int id, Job job, String date, Jobseeker jobseeker,
+    public EwalletPayment(int id, Job job, Jobseeker jobseeker,
         InvoiceStatus invoiceStatus){
-        super(id, job, date, jobseeker, invoiceStatus);
+        super(id, job, jobseeker, invoiceStatus);
     }
     
-    public EwalletPayment(int id, Job job, String date, Jobseeker jobseeker,
+    public EwalletPayment(int id, Job job, Jobseeker jobseeker,
         InvoiceStatus invoiceStatus, Bonus bonus){
-        super(id, job, date, jobseeker, invoiceStatus);
+        super(id, job, jobseeker, invoiceStatus);
         this.setBonus(bonus);
     }
     
@@ -55,4 +55,9 @@ public class EwalletPayment extends Invoice {
         System.out.println("Payment Type: " + PAYMENT_TYPE);
     }
     
+    public String toString()
+    {
+        return ("Id = " + getId() + "\nJob = " + getJob().getName() + "\nDate = " + getDate() + "\nJobSeeker = " + getJobseeker().getName() + "\nReferral Code = " + bonus.getReferralCode() + "Total Fee = " + getTotalFee()
+        + "Status = " + getInvoiceStatus() + "Payment Type: " + PAYMENT_TYPE);
+    }
 }

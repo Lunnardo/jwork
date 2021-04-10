@@ -6,23 +6,30 @@
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
 public abstract class Invoice {
     private int id;
     private int idJob;  
     protected  int totalFee;
-    private String date;
+    private Calendar date;
     private Jobseeker jobseeker;
     private PaymentType paymentType;
     private InvoiceStatus invoiceStatus;
     private Job job;
+    private Bonus bonus;
     
-    public Invoice(int id,Job job, String date, Jobseeker jobseeker,InvoiceStatus invoiceStatus){
+    public Invoice(int id,Job job, Jobseeker jobseeker,InvoiceStatus invoiceStatus){
         this.id = id;
         this.job = job;
-        this.date = date;
         this.jobseeker = jobseeker;
         this.invoiceStatus = invoiceStatus;
     }
+    
+
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa id invoice.
     * @return id
@@ -43,7 +50,7 @@ public abstract class Invoice {
     * Method asesor ini digunakan untuk mengembalikan nilai berupa tanggal invoice.
     * @return date
     */
-    public String getDate(){
+    public Calendar getDate(){
         return date;
     }
     
@@ -87,9 +94,13 @@ public abstract class Invoice {
     * Method mutator ini mendeklarasikan bahwa isi dari method setDate adalah nilai kembalian dari this.date yang didapat dari nilai date
     * yang dimasukkan pada saat method ini dipanggil
     */
-    public void setDate(String date){
+    public void setDate(Calendar date){
         this.date = date;
     }
+    public void setDate(int year, int month, int dayOfMonth){
+        this.date = new GregorianCalendar(year, month, dayOfMonth);
+    }
+    
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setTotalFee adalah nilai kembalian dari this.totalFee 
     * yang didapat dari nilai totalFee yang dimasukkan pada saat method ini dipanggil
@@ -142,5 +153,10 @@ public abstract class Invoice {
         System.out.print("Fee: " + totalFee + "\n" );
         System.out.print("Status: " + invoiceStatus + "\n");
     }*/
-
+    
+    public String toString()
+    {
+        return ("Id = " + id + "\nID Job = " + idJob + "\nDate = " + getDate() + "\nSeeker = " + jobseeker.getName() + "\nFee = " + totalFee + "\nInvoice Sttaus = " +invoiceStatus);
+    }
+    
 }

@@ -2,13 +2,13 @@ public class BankPayment extends Invoice{
     private static final PaymentType PAYMENT_TYPE = PaymentType.BankPayment;
     private int adminFee;
 
-    public BankPayment(int id, Job job, String date, Jobseeker jobseeker,
+    public BankPayment(int id, Job job, Jobseeker jobseeker,
         InvoiceStatus invoiceStatus){
-        super(id, job, date, jobseeker, invoiceStatus);
+        super(id, job, jobseeker, invoiceStatus);
     }
-    public BankPayment(int id, Job job, String date, Jobseeker jobseeker,
+    public BankPayment(int id, Job job, Jobseeker jobseeker,
         InvoiceStatus invoiceStatus, int adminFee){
-        super(id, job, date, jobseeker, invoiceStatus);
+        super(id, job,jobseeker, invoiceStatus);
         this.adminFee = adminFee;
     }
 
@@ -45,5 +45,11 @@ public class BankPayment extends Invoice{
         System.out.println("Total Fee: " + getTotalFee());
         System.out.println("Status: " + getInvoiceStatus());
         System.out.println("Payment Type: " + PAYMENT_TYPE);
+    }
+    
+    public String toString()
+    {
+        return ("ID= " + getId() + "Job = " + getJob().getName() + "Date = " + getDate() + "Job Seeker = " + getJobseeker().getName() + "Admin Fee = " + adminFee
+        + "Total Fee = " + getTotalFee() +  "Status = " + getInvoiceStatus() + "Payment Type = " + PAYMENT_TYPE);
     }
 }

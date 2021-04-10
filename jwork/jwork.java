@@ -58,9 +58,9 @@ public class Jwork
         Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
         Bonus bonus2 = new Bonus (20, "PROMO2", 20000, 18000, true);
 
-        EwalletPayment invoice1 = new EwalletPayment(1, job1, "13 Desember 2021",jobseeke1, InvoiceStatus.Finished);
-        EwalletPayment invoice2 = new EwalletPayment(2, job1, "14 Desember 2021",jobseeke1, InvoiceStatus.Finished, bonus1);
-        EwalletPayment  invoice3 = new EwalletPayment(3, job1, "15 Desember 2021",jobseeke1, InvoiceStatus.Finished, bonus2);
+        EwalletPayment invoice1 = new EwalletPayment(1, job1,jobseeke1, InvoiceStatus.Finished);
+        EwalletPayment invoice2 = new EwalletPayment(2, job1,jobseeke1, InvoiceStatus.Finished, bonus1);
+        EwalletPayment  invoice3 = new EwalletPayment(3, job1,jobseeke1, InvoiceStatus.Finished, bonus2);
         
         
         //Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
@@ -71,6 +71,10 @@ public class Jwork
         //System.out.println(recruite1.getName());
         
         //job1.printData();
+        System.out.println(invoice1.toString());
+        System.out.println(invoice2.toString());
+        System.out.println(invoice3.toString());
+        
         //invoice1.printData();
         //System.out.println("\n");
         //invoice1.printData();
@@ -78,12 +82,17 @@ public class Jwork
         //invoice2.printData();
         //System.out.println("\n");
         //invoice3.printData();
-        BankPayment bank1 = new BankPayment(1, job1, "3 April 2021", jobseeke1, InvoiceStatus.Finished);
+        
+        BankPayment bank1 = new BankPayment(1, job1, jobseeke1, InvoiceStatus.Finished);
 
-        BankPayment bank2 = new BankPayment(1, job1, "3 April 2021", jobseeke1, InvoiceStatus.Finished, 2000);
-
-        //bank1.printData();
-       //System.out.println("\n");
+        BankPayment bank2 = new BankPayment(1, job1, jobseeke1, InvoiceStatus.Finished, 2000);
+        
+        
+        System.out.println(bank1.toString());
+        System.out.println(bank2.toString());
+        
+        ///bank1.printData();
+      // System.out.println("\n");
         //bank2.printData();
         //System.out.println("\n");
         //System.out.println(jobseeke1.toString());
@@ -96,11 +105,12 @@ public class Jwork
         //System.out.println("\n");
         //System.out.println(bonus1.toString());
         
-        Jobseeker jobseeker1 = new Jobseeker(1, "Lunnardo", "lunnardo.soekarno", "lunnardo", new GregorianCalendar(2021, 01, 8));
-        Jobseeker jobseeker2 = new Jobseeker(2, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2.-", 2021, 03, 8);
-        Jobseeker jobseeker3 = new Jobseeker(3, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2-.");
-        System.out.println(jobseeker1.toString());
-        System.out.println(jobseeker2.toString());
-        System.out.println(jobseeker3.toString());
+        
+        //Jobseeker jobseeker1 = new Jobseeker(1, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "lunnardo", new GregorianCalendar(2021, 01, 8));
+        //Jobseeker jobseeker2 = new Jobseeker(2, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2.-", 2021, 03, 8);
+        //Jobseeker jobseeker3 = new Jobseeker(3, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2-.");
+        //System.out.println(jobseeker1.toString());
+        //System.out.println(jobseeker2.toString());
+        //System.out.println(jobseeker3.toString());
     }
 }
