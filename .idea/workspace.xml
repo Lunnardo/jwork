@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66e41b49-c61c-4c9d-b2a0-4998aaf9153f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/ahmad_dahlan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/ahmad_yani.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/bung_tomo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/gatot_subroto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/ki_hadjar_dewantara.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/mohammad_hatta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/sudirman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/sukarno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/supomo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyRecyclerView/app/src/main/res/drawable-v24/tan_malaka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyUnitTesting/app/src/test/java/com/example/myunittesting/MainViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyViewAndViews/app/src/main/res/drawable-v24/ic_collections_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyViewAndViews/app/src/main/res/drawable-v24/photo_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/MyViewAndViews/app/src/main/res/drawable-v24/pixel_google.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/parcelable/app/src/main/java/com/example/parcelable/MoveWithObjectActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/parcelable/app/src/main/res/layout/activity_move_with_object.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Android Studio/submission2dicodingrevisi/app/src/main/java/com/example/submission3dicoding/ui/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Break/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Break/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Break/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Break/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Continue/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Continue/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Continue/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Continue/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Labels/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Labels/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Labels/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/Labels/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Break and Continue/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/All of Enum Object/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/All of Enum Object/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/All of Enum Object/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/All of Enum Object/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Anonymous Class in Enumeration/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Anonymous Class in Enumeration/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Anonymous Class in Enumeration/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Anonymous Class in Enumeration/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Object Value/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Object Value/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Object Value/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Object Value/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Position/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Position/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Position/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enum Position/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration with When Expression/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration with When Expression/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration with When Expression/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration with When Expression/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/Enumeration/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/enumValues/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/enumValues/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/enumValues/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/enumValues/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/valueOf/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/valueOf/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/valueOf/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Enumeration/valueOf/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Expression/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Expression/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Expression/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Expression/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Statement/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Statement/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Statement/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/Statement/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Expression and Statement/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/Latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/Latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/Latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/Latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/Latihan/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop Index/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop Index/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop Index/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop Index/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Range/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Range/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Range/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Range/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Step Extension/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Step Extension/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Step Extension/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop with Step Extension/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/For Loop/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEach/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEach/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEach/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEach/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEachIndexed/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEachIndexed/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEachIndexed/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/ForEachIndexed/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range ForEach/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range ForEach/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range ForEach/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range ForEach/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `!in` Operator/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `!in` Operator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `!in` Operator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `!in` Operator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `in` Operator/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `in` Operator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `in` Operator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range with `in` Operator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/Range/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/Range and For loop/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/Multiple statement in Condition block/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/Multiple statement in Condition block/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/Multiple statement in Condition block/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/Multiple statement in Condition block/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When as a Expression/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When as a Expression/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When as a Expression/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When as a Expression/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When subject/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When subject/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When subject/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When subject/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Else block/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Else block/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Else block/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Else block/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Range as a Condition/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Range as a Condition/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Range as a Condition/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with Range as a Condition/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with `is` operator/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with `is` operator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with `is` operator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When with `is` operator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/When/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/When Expression/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Do While/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Do While/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Do While/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Do While/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Infinite While/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Infinite While/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Infinite While/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/Infinite While/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/While/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/While/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/While/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/While/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/While and Do While/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Control Flow/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Channels/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Channels/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Channels/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Channels/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Channels/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Channels/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Default/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Default/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Default/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Default/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.IO/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.IO/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.IO/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.IO/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Unconfined/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Unconfined/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Unconfined/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Dispatcher.Unconfined/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Single Thread Context/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Single Thread Context/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Single Thread Context/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Single Thread Context/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Thread Pool/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Thread Pool/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Thread Pool/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/Thread Pool/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Coroutine Dispatcher/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 4/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 4/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 4/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 4/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 5/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 5/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 5/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/Contoh 5/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Job dan Deferred/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/Memulai Coroutine/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/Latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/Latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/Latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/Latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/Latihan/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Coroutines/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/count/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/count/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/count/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/count/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/filter and filterNot/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/filter and filterNot/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/filter and filterNot/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/filter and filterNot/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/find/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/find/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/find/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/find/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/first/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/first/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/first/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/first/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/map/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/map/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/map/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/map/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sorted/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sorted/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sorted/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sorted/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sum/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sum/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sum/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections Operations/sum/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Collections/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Collections/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Collections/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Collections/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Maps/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Maps/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Maps/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Maps/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Sets/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Sets/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Sets/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/Sets/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Collections/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Comparing data class/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Comparing data class/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Comparing data class/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Comparing data class/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Copying data class objects/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Copying data class objects/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Copying data class objects/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Copying data class objects/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Create variables based on data class objects/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Create variables based on data class objects/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Create variables based on data class objects/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Create variables based on data class objects/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Data Class/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Data Class/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Data Class/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Data Class/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Destructuring Declarations/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Destructuring Declarations/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Destructuring Declarations/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Destructuring Declarations/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Different data class with class/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Different data class with class/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Different data class with class/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Different data class with class/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Modify the data class object/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Modify the data class object/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Modify the data class object/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/Modify the data class object/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Data Class/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/latihan/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization with generateSequence/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization with generateSequence/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization with generateSequence/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization with generateSequence/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/Sequences Initialization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/Sequences/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Data Class dan Collections/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Distinct/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Distinct/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Distinct/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Distinct/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Drop/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Drop/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Drop/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Drop/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Fold/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Fold/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Fold/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Fold/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Slice/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Slice/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Slice/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Slice/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Take/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Take/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Take/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/Take/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Advanced Collection Function/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 4/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 4/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 4/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/Contoh 4/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Extensions/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Inside Function/Inner function/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Inside Function/Inner function/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Inside Function/Inner function/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Inside Function/Inner function/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Inside Function/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Inside Function/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Function Type/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 4/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 4/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 4/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 4/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 5/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 5/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 5/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/Contoh 5/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Lambda/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/Latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/Latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/Latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/Latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/Latihan/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/also/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/also/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/also/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/also/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/apply/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/apply/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/apply/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/apply/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/let/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/let/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/let/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/let/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/run/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/run/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/run/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/run/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/with/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/with/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/with/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Library Helper/with/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Function References/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Function References/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Function References/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Function References/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Property References/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Property References/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Property References/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/Property References/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Member References/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 4/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 4/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 4/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/Contoh 4/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Named and Default Argument/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Recursion Initilization/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Recursion Initilization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Recursion Initilization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Recursion Initilization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Tail Recursion/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Tail Recursion/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Tail Recursion/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/Tail Recursion/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Recursion/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/also/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/also/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/also/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/also/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/let/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/let/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/let/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Argument/let/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/apply/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/apply/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/apply/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/apply/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/run/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/run/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/run/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/run/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/with/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/with/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/with/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Scope Function with Lambda Receiver/with/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/Vararg Argument/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Functional/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Generics/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/Latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/Latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/Latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/Latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/Latihan/test/Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Variance/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Variance/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Variance/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Variance/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Variance/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/Variance/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Generics/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Conjuction/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Conjuction/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Conjuction/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Conjuction/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Disjunction/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Disjunction/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Disjunction/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Disjunction/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Negation/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Negation/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Negation/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/Negation/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Boolean/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Array Initialization/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Array Initialization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Array Initialization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Array Initialization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Char in String/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Char in String/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Char in String/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Char in String/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Character/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Character/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Character/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Character/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Escaped String/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Escaped String/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Escaped String/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Escaped String/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Raw String/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Raw String/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Raw String/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Raw String/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/String/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/String/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/String/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/String/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Unicode String/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Unicode String/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Unicode String/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Unicode String/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Update Array/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Update Array/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Update Array/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/Update Array/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Data Type/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Function/Function Initilization/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Function/Function Initilization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Function/Function Initilization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Function/Function Initilization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Function/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Function/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/Hello Kotlin 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Hello Kotlin/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else If/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else If/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else If/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else If/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If Else/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If as a Expression/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If as a Expression/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If as a Expression/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If as a Expression/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/If/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/If Expression/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/Latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/Latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/Latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/Latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/Latihan/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Nullable Types/Nullable Types/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Nullable Types/Nullable Types/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Nullable Types/Nullable Types/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Nullable Types/Nullable Types/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Nullable Types/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Nullable Types/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number Initilization/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number Initilization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number Initilization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number Initilization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number operation/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number operation/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number operation/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number operation/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number with max and min values/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number with max and min values/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number with max and min values/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/Number with max and min values/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/String to Number/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/String to Number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/String to Number/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/String to Number/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Numbers/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Elvis Operator/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Elvis Operator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Elvis Operator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Elvis Operator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Safe Call Operator/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Safe Call Operator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Safe Call Operator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/Safe Call Operator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/Safe Call and Elvis Operator/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/String Template/String Template/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/String Template/String Template/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/String Template/String Template/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/String Template/String Template/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/String Template/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/String Template/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Kotlin Fundamental/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 1/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 1/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 2/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/Latihan 2/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Program Pertama Kotlin/Hello Kotlin/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Program Pertama Kotlin/Hello Kotlin/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Program Pertama Kotlin/Hello Kotlin/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Program Pertama Kotlin/Hello Kotlin/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Program Pertama Kotlin/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/Program Pertama Kotlin/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Membangun dan Menjalankan Program Kotlin/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Abstract Class/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Abstract Class/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Abstract Class/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Abstract Class/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Abstract Class/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Abstract Class/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Classes/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Classes/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Classes/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Classes/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Classes/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Classes/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 4/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 4/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 4/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/Contoh 4/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Constructor/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 3/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Exception Handling/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Extension Properties/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Extension Properties/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Extension Properties/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Extension Properties/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Extension Properties/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Extension Properties/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 2/src/com/dicoding/oop/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 2/src/com/dicoding/oop/utils/MyMath.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 2/test/Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 3/src/com/dicoding/oop/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 3/src/com/dicoding/oop/utils/MyMath.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 3/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 3/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/Contoh 3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Import dan Packages/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Inheritances/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Inheritances/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Inheritances/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Inheritances/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Inheritances/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Inheritances/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Interfaces/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Interfaces/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Interfaces/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Interfaces/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Interfaces/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Interfaces/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/Latihan/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/Latihan/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/Latihan/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/Latihan/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/Latihan/test/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Latihan/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 1/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 1/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 1/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 1/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 2/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 2/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 2/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/Contoh 2/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Object Everywhere/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Overloading/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Overloading/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Overloading/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Overloading/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Overloading/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Overloading/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Properties/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Properties/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Properties/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Properties/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Properties/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Properties/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Property Delegation/Contoh/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Property Delegation/Contoh/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Property Delegation/Contoh/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Property Delegation/Contoh/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Property Delegation/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Property Delegation/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/internal/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/internal/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/internal/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/internal/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/private/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/private/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/private/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/private/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/protected/src/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/protected/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/protected/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/protected/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/public/src/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/public/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/public/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/Visibility Modifiers/public/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/Object-Oriented/section-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/Memulai Pemrograman dengan Kotlin/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Program Bangkit/kotlintes/src/main/kotlin/main.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Project Files" color="Yellow" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rTbP0UqwduFEcr6gVgoiAGIaSz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kuliahan\Semester 6\Object Oriented Programming (OOP)\CS Modul 1\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Jwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jwork" />
+      <module name="jwork" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Jwork" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66e41b49-c61c-4c9d-b2a0-4998aaf9153f" name="Default Changelist" comment="" />
+      <created>1619002999867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619002999867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
+</project>
