@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+
+
 /**
 * Class DatabaseJob berfungsi untuk menampilkan daftar listjob yang ada
 * seluruh class menggunakan fungsi asesor dan mutator untuk mengambil dan mengembalikan nilai
@@ -5,37 +8,55 @@
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
-public class DatabaseRecruiter {
-    private static String[] listRecruiter;
-    private Recruiter recruiter;
-        
-    /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai true untuk addRecruiter pada database recruiter.
-    * @return true
-    */
-    public static boolean addRecruiter(Recruiter recruiter){
-    return true;
+public class DatabaseRecruiter
+{
+    private static ArrayList<Recruiter> RECRUITER_DATABASE = new ArrayList<Recruiter>();
+    private static int lastId = 0;
+
+    public static ArrayList<Recruiter> getRecruiterDatabase()
+    {
+        return RECRUITER_DATABASE;
     }
-        /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai true untuk removeRecruiter pada database recruiter.
-    * @return true
-    */
-    public static boolean removeRecruiter(Recruiter recruiter){
-    return true;
+
+    public static int getLastId()
+    {
+        return lastId;
     }
-    
-    /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai null untuk getRecruiter pada database recruiter.
-    * @return null
-    */
-    public static Job getRecruiter(){
-        return null;
+
+    public static Recruiter getRecruiterById(int id)
+    {
+        Recruiter tempVar = null;
+        for (Recruiter recruiter: RECRUITER_DATABASE) {
+            if (id == recruiter.getId()){
+                tempVar = recruiter;
+            }
+            else{
+                tempVar =  null;
+            }
+        }
+        return tempVar;
     }
-    /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai dari listJob untuk getListJob pada database job.
-    * @return true
-    */
-    public static String[] getListRecruiter(){
-        return listRecruiter;
+
+    public static boolean addRecruiter(Recruiter recruiter)
+    {
+        RECRUITER_DATABASE.add(recruiter);
+        lastId = recruiter.getId();
+        return true;
     }
+
+    public static boolean removeRecruiter(int id)
+    {
+        boolean tempBool = true;
+        for (Recruiter recruiter: RECRUITER_DATABASE) {
+            if (id == recruiter.getId()){
+                RECRUITER_DATABASE.remove(id);
+                tempBool = true;
+            }
+            else{
+                tempBool = false;
+            }
+        }
+        return tempBool;
+    }
+
 }

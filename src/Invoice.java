@@ -6,6 +6,7 @@
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -19,17 +20,19 @@ public abstract class Invoice {
     private Jobseeker jobseeker;
     private PaymentType paymentType;
     private InvoiceStatus invoiceStatus;
-    private Job job;
+    private ArrayList<Job>  jobs;
     private Bonus bonus;
-    
-    public Invoice(int id,Job job, Jobseeker jobseeker,InvoiceStatus invoiceStatus){
+
+
+    public Invoice(int id,ArrayList<Job> jobs, Jobseeker jobseeker){
         this.id = id;
-        this.job = job;
+        this.jobs = jobs;
+        this.totalFee = totalFee;
         date = Calendar.getInstance();
         this.jobseeker = jobseeker;
-        this.invoiceStatus = invoiceStatus;
+        this.invoiceStatus = invoiceStatus.OnGoing;
     }
-    
+
 
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa id invoice.
@@ -43,8 +46,8 @@ public abstract class Invoice {
     * Method asesor ini digunakan untuk mengembalikan nilai berupa idJob invoice.
     * @return idJob
     */
-    public Job getJob(){
-        return job;
+    public ArrayList<Job>  getJobs(){
+        return jobs;
     }
     
     /**
@@ -88,8 +91,8 @@ public abstract class Invoice {
     * Method mutator ini mendeklarasikan bahwa isi dari method setIdJobs adalah nilai kembalian dari this.idJob yang didapat dari nilai idJobs
     * yang dimasukkan pada saat method ini dipanggil
     */
-    public void setJob(Job job){
-        this.job = job;
+    public void setJobs(ArrayList<Job> jobs){
+        this.jobs = jobs;
     }
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setDate adalah nilai kembalian dari this.date yang didapat dari nilai date
@@ -157,7 +160,7 @@ public abstract class Invoice {
     
     public String toString()
     {
-        return ("Id = " + id + "\nID Job = " + idJob + "\nDate = " + getDate() + "\nSeeker = " + jobseeker.getName() + "\nFee = " + totalFee + "\nInvoice Sttaus = " +invoiceStatus);
+        return ("Id = " + id + "\nID Job = " + idJob + "\nDate = " + getDate() + "\nSeeker = " + jobseeker.getName() + "\nFee = " + totalFee + "\nInvoice Status = " +invoiceStatus);
     }
     
 }
