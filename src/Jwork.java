@@ -16,7 +16,7 @@ public class Jwork
     */
     public Jwork()
     {
-        
+
         
     }
     
@@ -31,30 +31,30 @@ public class Jwork
         //{
            // System.out.println(jobCategory);
         //}
-        
-        
+
+
         //for (PaymentType paymentType : PaymentType.values())
         //{
            // System.out.println(paymentType);
         //}
-        
+
         Location location1 = new Location("DKI Jakarta", "Depok", "Kota Lahir");
         //System.out.println(location1.getProvince());
-        
+
         location1.setProvince("Jawa Barat");
         //System.out.println(location1.getProvince());
 
         Recruiter recruite1 = new Recruiter(1, "Lunnardo", "lunnardo@gmail.com", "08121234567", location1);
         //System.out.println(recruite1.getEmail());
-        
+
         Job job1 = new Job(2,"Web Developer", recruite1, 20000, JobCategory.WebDeveloper);
         //System.out.println(job1.getName());
-        
+
         Calendar calendar = Calendar.getInstance();
         Jobseeker jobseeke1 = new Jobseeker(1, "Lunnardo", "gajar@gmail.com", "lunnardo",2000, 06, 15 );
-        
+
         //System.out.println(jobseeke1.getName());
-        
+
         Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
         Bonus bonus2 = new Bonus (20, "PROMO2", 20000, 18000, true);
 
@@ -71,31 +71,31 @@ public class Jwork
         System.out.println(DatabaseJobseeker.getJobseekerById(1));
         System.out.println(DatabaseJobseeker.getJobseekerById(2));
         System.out.println(DatabaseJobseeker.getJobseekerById(3));
-        DatabaseJob.addJob(new Job(1, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
-        DatabaseJob.addJob(new Job(1, "Junior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 20000, JobCategory.BackEnd));
-        DatabaseJob.addJob(new Job(1, "Junior Frontend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.FrontEnd));
+        DatabaseJob.addJob(new Job(1, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 20000, JobCategory.BackEnd));
+        DatabaseJob.addJob(new Job(1, "Junior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 30000, JobCategory.BackEnd));
+        DatabaseJob.addJob(new Job(1, "Junior Frontend Engineer", DatabaseRecruiter.getRecruiterById(1), 20000, JobCategory.FrontEnd));
 
         //Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
         //System.out.println(invoice1.getDate());
-        
+
         //System.out.println(recruite1.getName());
         //recruite1.setName("Hansaka Wijaya");
         //System.out.println(recruite1.getName());
-        
+
         //job1.printData();
         //System.out.println(invoice1.toString());
         //System.out.println(invoice2.toString());
         //System.out.println(invoice3.toString());
 
-        
+
         //BankPayment bank1 = new BankPayment(1, job1, jobseeke1, InvoiceStatus.Finished);
 
         //BankPayment bank2 = new BankPayment(2, job1, jobseeke1, InvoiceStatus.Finished, 2000);
-        
-        
+
+
         //System.out.println(bank1.toString());
         //System.out.println(bank2.toString());
-        
+
         ///bank1.printData();
       // System.out.println("\n");
         //bank2.printData();
@@ -109,8 +109,8 @@ public class Jwork
         //System.out.println(location1.toString());
         //System.out.println("\n");
         //System.out.println(bonus1.toString());
-        
-        
+
+
         //Jobseeker jobseeker1 = new Jobseeker(1, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "lunnardo", new GregorianCalendar(2021, 01, 8));
         //Jobseeker jobseeker2 = new Jobseeker(2, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2.-", 2021, 03, 8);
         //Jobseeker jobseeker3 = new Jobseeker(3, "Lunnardo", "lunnardo.soekarno@ui.ac.id", "Akagami2-.");
