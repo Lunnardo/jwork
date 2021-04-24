@@ -44,19 +44,19 @@ public class Jwork
         location1.setProvince("Jawa Barat");
         //System.out.println(location1.getProvince());
 
-        Recruiter recruite1 = new Recruiter(1, "Lunnardo", "lunnardo@gmail.com", "08121234567", location1);
+        //Recruiter recruite1 = new Recruiter(1, "Lunnardo", "lunnardo@gmail.com", "08121234567", location1);
         //System.out.println(recruite1.getEmail());
 
-        Job job1 = new Job(2,"Web Developer", recruite1, 20000, JobCategory.WebDeveloper);
+        //Job job1 = new Job(2,"Web Developer", recruite1, 20000, JobCategory.WebDeveloper);
         //System.out.println(job1.getName());
 
-        Calendar calendar = Calendar.getInstance();
-        Jobseeker jobseeke1 = new Jobseeker(1, "Lunnardo", "gajar@gmail.com", "lunnardo",2000, 06, 15 );
+        //Calendar calendar = Calendar.getInstance();
+        //Jobseeker jobseeke1 = new Jobseeker(1, "Lunnardo", "gajar@gmail.com", "lunnardo",2000, 06, 15 );
 
         //System.out.println(jobseeke1.getName());
 
-        Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
-        Bonus bonus2 = new Bonus (20, "PROMO2", 20000, 18000, true);
+        //Bonus bonus1 = new Bonus (10, "PROMO1", 20000, 20001, true);
+        //Bonus bonus2 = new Bonus (20, "PROMO2", 20000, 18000, true);
 
         //EwalletPayment invoice1 = new EwalletPayment(1, job1,jobseeke1);
         //EwalletPayment invoice2 = new EwalletPayment(2, job1,jobseeke1, bonus1);
@@ -68,12 +68,23 @@ public class Jwork
         DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1, "lunnardo", "lunnardo@ui.ac.id", "lunnardo123", 2021, 03, 6));
         DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1, "lunanrdo", "lunnardo@ui.ac.id", "lunnardo123", 2021, 04 ,6));
         DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1 , "Hansaka", "Hansaka@ui.ac.id", "hansaka123", 2021, 03, 6));
-        System.out.println(DatabaseJobseeker.getJobseekerById(1));
-        System.out.println(DatabaseJobseeker.getJobseekerById(2));
-        System.out.println(DatabaseJobseeker.getJobseekerById(3));
+        //System.out.println(DatabaseJobseeker.getJobseekerById(1));
+        //System.out.println(DatabaseJobseeker.getJobseekerById(2));
+        //System.out.println(DatabaseJobseeker.getJobseekerById(3));
         DatabaseJob.addJob(new Job(1, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 20000, JobCategory.BackEnd));
-        DatabaseJob.addJob(new Job(1, "Junior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 30000, JobCategory.BackEnd));
-        DatabaseJob.addJob(new Job(1, "Junior Frontend Engineer", DatabaseRecruiter.getRecruiterById(1), 20000, JobCategory.FrontEnd));
+        DatabaseJob.addJob(new Job(2, "Junior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 30000, JobCategory.BackEnd));
+        DatabaseJob.addJob(new Job(3, "Junior Frontend Engineer", DatabaseRecruiter.getRecruiterById(1), 20000, JobCategory.FrontEnd));
+        System.out.println(DatabaseJob.getJobById(1));
+        System.out.println(DatabaseJob.getJobById(2));
+        System.out.println(DatabaseJob.getJobById(3));
+
+
+        DatabaseBonus.addBonus(new Bonus(1,"PROMO1", 10000, 5000,false));
+        DatabaseBonus.addBonus(new Bonus(2,"PROMO1", 20000, 5000,true));
+        System.out.println(DatabaseBonus.getBonusByid(1));
+        System.out.println(DatabaseBonus.getBonusByid(2));
+
+
 
         //Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );
         //System.out.println(invoice1.getDate());

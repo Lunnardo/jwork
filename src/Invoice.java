@@ -138,7 +138,7 @@ public abstract class Invoice {
     * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
     * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
     */
-    public void setInvoiceStatus(InvoiceStatus status) {
+    public void setInvoiceStatus(InvoiceStatus invoiceStatus) {
         this.invoiceStatus = invoiceStatus;
     }
 

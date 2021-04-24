@@ -33,19 +33,25 @@ public class DatabaseJobseeker {
 
     public static boolean addJobseeker(Jobseeker jobseeker) {
         boolean result = false;
-        for (int i = 0; i < JOBSEEKER_DATABASE.size(); i++) {
-            if (jobseeker.getEmail() == JOBSEEKER_DATABASE.get(i).getEmail()) {
-                System.out.println("Email has been registered");
-                result = false;
-            } else {
-                JOBSEEKER_DATABASE.add(jobseeker);
-                lastId = jobseeker.getId();
-                result = true;
+        try {
+            for (int i = 0; i < JOBSEEKER_DATABASE.size(); i++) {
+                if (jobseeker.getEmail() == JOBSEEKER_DATABASE.get(i).getEmail()) {
+                    System.out.println("Email has been registered");
+                    result = false;
+                } else {
+                    JOBSEEKER_DATABASE.add(jobseeker);
+                    lastId = jobseeker.getId();
+                    result = true;
+                }
+
             }
 
         }
+        catch (NullPointerException e)
+        {
+            System.out.println("NullPointerException thrown!");
+        }
         return result;
-
     }
 
     public static boolean removeJobseeker(int id) {
