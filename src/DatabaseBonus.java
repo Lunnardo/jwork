@@ -51,16 +51,22 @@ public class DatabaseBonus {
         return null;
     }
 
-    public static boolean addBonus(Bonus bonus){
-        for (int i = 0; i < BONUS_DATABASE.size(); i++)
-        {
-            if(BONUS_DATABASE.get(i).getReferralCode() == bonus.getReferralCode())
-            {
-                return false;
+    public static boolean addBonus(Bonus bonus) {
+
+        try {
+            for (int i = 0; i < BONUS_DATABASE.size(); i++) {
+                if (BONUS_DATABASE.get(i).getReferralCode() == bonus.getReferralCode()) {
+                    return false;
+                }
             }
+            BONUS_DATABASE.add(bonus);
+            lastId = bonus.getId();
+            return true;
         }
-        BONUS_DATABASE.add(bonus);
-        lastId = bonus.getId();
+        catch (NullPointerException e)
+        {
+            System.out.println("NullPointerException thrown!");
+        }
         return true;
     }
 
