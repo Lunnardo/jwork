@@ -6,6 +6,7 @@
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -79,11 +80,16 @@ public class Jwork
         System.out.println(DatabaseJob.getJobById(3));
 
 
+        ArrayList<Job> job1 = new ArrayList<Job>();
+        job1.add(new Job(1, "Junior Back End Engineer",  new Recruiter(1, "Lunnardo Soekarno Lukias", "lunnardo.sokearno@ui.ac.id", "081212345678", location1), 10000, JobCategory.BackEnd));
+        ArrayList<Job> job2 = new ArrayList<Job>();
+        job2.add(new Job(2, "Senior Back Eng Engineer", new Recruiter(1, "Lunnardo Soekarno Lukias", "lunnardo.sokearno@ui.ac.id", "081212345678", location1), 20000, JobCategory.BackEnd));
+        System.out.println(job1);
+        System.out.println(job2);
         DatabaseBonus.addBonus(new Bonus(1,"PROMO1", 10000, 5000,false));
         DatabaseBonus.addBonus(new Bonus(2,"PROMO1", 20000, 5000,true));
         System.out.println(DatabaseBonus.getBonusByid(1));
         System.out.println(DatabaseBonus.getBonusByid(2));
-
 
 
         //Invoice invoice1 = new Invoice(1, job1.getId(), "23-03-2021", 20000000, jobseeke1,PaymentType.BankPayment, InvoiceStatus.Finished );

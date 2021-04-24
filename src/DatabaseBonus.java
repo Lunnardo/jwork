@@ -25,7 +25,7 @@ public class DatabaseBonus {
 
     public static Bonus getBonusByid(int id)
     {
-        for (int i = 0; i < BONUS_DATABASE.size()-1; i++)
+        for (int i = 0; i < BONUS_DATABASE.size() - 1; i++)
         {
             if(BONUS_DATABASE.get(i).getId() == id)
             {
