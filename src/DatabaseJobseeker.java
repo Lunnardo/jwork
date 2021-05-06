@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 /**
 * Class DatabaseJobseeker berfungsi untuk menampilkan daftar listjobseeker yang ada
 * seluruh class menggunakan fungsi asesor dan mutator untuk mengambil dan mengembalikan nilai
@@ -8,9 +9,9 @@ import java.util.ArrayList;
 * @version 20210318
 */
 
-public class DatabaseJobseeker {
-
-    private static ArrayList<Jobseeker> JOBSEEKER_DATABASE;
+public class DatabaseJobseeker{
+    private static String[] listJobseeker;
+    private static ArrayList<Jobseeker> JOBSEEKER_DATABASE = new ArrayList<Jobseeker>();
     private static int lastId = 0;
 
     public static ArrayList<Jobseeker> getDatabaseJobseeker() {
@@ -21,47 +22,36 @@ public class DatabaseJobseeker {
         return lastId;
     }
 
-    public static Jobseeker getJobseekerById(int id) {
+    public static Jobseeker getJobseekerById(int id) throws JobSeekerNotFoundException {
         Jobseeker temp = null;
-        for (int i = 0; i < JOBSEEKER_DATABASE.size(); i++) {
-            if (id == JOBSEEKER_DATABASE.get(i).getId()) {
-                temp = JOBSEEKER_DATABASE.get(i);
-            }
-        }
-        return temp;
-    }
-
-    public static boolean addJobseeker(Jobseeker jobseeker) {
-        boolean result = false;
-        try {
-            for (int i = 0; i < JOBSEEKER_DATABASE.size(); i++) {
-                if (jobseeker.getEmail() == JOBSEEKER_DATABASE.get(i).getEmail()) {
-                    System.out.println("Email has been registered");
-                    result = false;
-                } else {
-                    JOBSEEKER_DATABASE.add(jobseeker);
-                    lastId = jobseeker.getId();
-                    result = true;
-                }
-
-            }
-
-        }
-        catch (NullPointerException e)
-        {
-            System.out.println("NullPointerException thrown!");
-        }
-        return result;
-    }
-
-    public static boolean removeJobseeker(int id) {
         for (Jobseeker jobseeker : JOBSEEKER_DATABASE) {
-            if (jobseeker.getId() == jobseeker.getId()) {
-                JOBSEEKER_DATABASE.remove(jobseeker);
+            if (id == jobseeker.getId()) {
+                temp = jobseeker;
+                return temp;
+            }
+        }
+        throw new JobSeekerNotFoundException(id);
+    }
+
+    public static boolean addJobseeker(Jobseeker jobseeker) throws EmailAlreadyExistsException {
+        for (Jobseeker jobseekere : JOBSEEKER_DATABASE) {
+            if (jobseekere.getEmail() == jobseeker.getEmail()) {
+                throw new EmailAlreadyExistsException(jobseeker);
+            }
+        }
+        JOBSEEKER_DATABASE.add(jobseeker);
+        lastId = jobseeker.getId();
+        return true;
+    }
+
+    public static boolean removeJobseeker(int id) throws JobSeekerNotFoundException {
+        for (Jobseeker jobseeker : JOBSEEKER_DATABASE) {
+            if (jobseeker.getId() == id) {
+                JOBSEEKER_DATABASE.remove(jobseeker.getId());
                 return true;
             }
         }
-        return false;
+        throw new JobSeekerNotFoundException(id);
     }
 
 }

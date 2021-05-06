@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class DatabaseInvoice {
     // instance variable dari DatabaseInvoice
-    private static final ArrayList<Invoice> INVOICE_DATABASE = new ArrayList<Invoice>();
+    private static  ArrayList<Invoice> INVOICE_DATABASE = new ArrayList<Invoice>();
     private static int lastId = 0;
     private static int id;
 
@@ -25,26 +25,30 @@ public class DatabaseInvoice {
     }
 
     public static ArrayList<Invoice> getInvoiceByJobseeker(int jobseekerId){
-        ArrayList<Invoice> temp = new ArrayList<Invoice>();
-        for (Invoice invoice : INVOICE_DATABASE) {
-            if (jobseekerId == invoice.getJobseeker().getId()) {
-                temp.add(invoice);
-            } else {
-                return null;
+        try {
+            ArrayList<Invoice> dummy = new ArrayList<Invoice>();
+            for (int i = 0; i < INVOICE_DATABASE.size(); i++) {
+                if (INVOICE_DATABASE.get(i).getJobseeker().getId() == jobseekerId) {
+                    dummy.add(INVOICE_DATABASE.get(i));
+                    return dummy;
+                }
             }
         }
-        return temp;
+        catch (NullPointerException e)
+        {
+            System.out.println("NullPointer detected!");
+        }
+        return null;
     }
 
-    public static boolean changeInvoiceStatus(InvoiceStatus invoiceStatus){
-        for(int i = 0; i < INVOICE_DATABASE.size();i++)
-        {
-        if (id == INVOICE_DATABASE.get(i).getId())
-        {
-            INVOICE_DATABASE.get(i).setInvoiceStatus(invoiceStatus);
+    public static boolean changeInvoiceStatus(int id, InvoiceStatus invoiceStatus){
+        for(int i = 0; i < INVOICE_DATABASE.size(); i++) {
+            if ((INVOICE_DATABASE.get(i).getId() == id) && (INVOICE_DATABASE.get(i).getInvoiceStatus() == InvoiceStatus.OnGoing)) {
+                INVOICE_DATABASE.get(i).setInvoiceStatus(invoiceStatus);
+                return true;
+            }
         }
-        }
-        return true;
+        return false;
     }
 
     public static boolean addInvoice(Invoice invoice){

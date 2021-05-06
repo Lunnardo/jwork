@@ -8,11 +8,9 @@ import java.util.ArrayList;
 * @version 20210318
 */
 public class DatabaseJob {
-
-    // listjob variable
-
-    private static ArrayList<Job> JOB_DATABASE = new ArrayList<Job>();
+    // instance variable
     private static int lastId = 0;
+    private static ArrayList<Job> JOB_DATABASE = new ArrayList<>();
 
     public static ArrayList<Job> getJobDatabase() {
         return JOB_DATABASE;
@@ -22,61 +20,63 @@ public class DatabaseJob {
         return lastId;
     }
 
-    public static Job getJobById(int id) {
-        Job temp = null;
-        for (int i = 0; i < JOB_DATABASE.size(); i++) {
-            if (id == JOB_DATABASE.get(i).getId()) {
-                temp = JOB_DATABASE.get(i);
+    public static Job getJobById(int id) throws JobNotFoundException {
+        Job result = null;
+        for (Job element : JOB_DATABASE) {
+            if (element.getId() == id) {
+                result = element;
+                return result;
             }
         }
-        return temp;
+        if (result == null){
+            throw new JobNotFoundException(id);
+        }
+
+        return result;
     }
 
     public static ArrayList<Job> getJobByRecruiter(int recruiterId) {
-        ArrayList<Job> temp = new ArrayList<Job>();
-        for (int i = 0; i < JOB_DATABASE.size(); i++) {
-            if (recruiterId == JOB_DATABASE.get(i).getRecruiter().getId()) {
-                temp.add(JOB_DATABASE.get(i));
-            } else {
-                return null;
+        ArrayList<Job> result = null;
+
+        for (Job element : JOB_DATABASE) {
+            if (element.getRecruiter().getId() == recruiterId) {
+                if (result == null) {
+                    result = new ArrayList<Job>();
+                }
+                result.add(element);
             }
         }
-        return temp;
-
+        return result;
     }
 
     public static ArrayList<Job> getJobByCategory(JobCategory category) {
-        ArrayList<Job> temp = new ArrayList<Job>();
-        for (int i = 0; i < JOB_DATABASE.size(); i++) {
-            if (category == JOB_DATABASE.get(i).getCategory()) {
-                temp.add(JOB_DATABASE.get(i));
+        ArrayList<Job> result = null;
+
+        for (Job element : JOB_DATABASE) {
+            if (element.getCategory() == category) {
+                if (result == null) {
+                    result = new ArrayList<Job>();
+                }
+                result.add(element);
             }
         }
-        return temp;
+        return result;
     }
 
-    /**
-     * Method to add a new Job
-     *
-     * @param job
-     * @return boolean value whether the Job addition is successful or not
-     */
     public static boolean addJob(Job job) {
         JOB_DATABASE.add(job);
         lastId = job.getId();
         return true;
     }
 
-
-    public static boolean removeJob(int id) {
+    public static boolean removeJob(int id) throws JobNotFoundException {
         for (Job job : JOB_DATABASE) {
-            if (job.getId() == job.getId()) {
+            if (job.getId() == id) {
                 JOB_DATABASE.remove(job);
                 return true;
             }
         }
-        return false;
+        throw new JobNotFoundException(id);
     }
 
-    // Access method to fetch a specific existing Job
 }

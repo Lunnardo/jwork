@@ -12,155 +12,148 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-public abstract class Invoice {
+public abstract class Invoice
+{
+    protected int totalFee;
     private int id;
-    private int idJob;  
-    protected  int totalFee;
-    private Calendar date;
     private Jobseeker jobseeker;
-    private PaymentType paymentType;
     private InvoiceStatus invoiceStatus;
-    private ArrayList<Job>  jobs;
-    private Bonus bonus;
+    private ArrayList<Job> jobs;
 
+    private Calendar date;
 
-    public Invoice(int id,ArrayList<Job> jobs, Jobseeker jobseeker){
+    public Invoice(int id, ArrayList<Job> jobs, Jobseeker jobseeker) {
         this.id = id;
         this.jobs = jobs;
-        this.totalFee = totalFee;
-        date = Calendar.getInstance();
         this.jobseeker = jobseeker;
-        this.invoiceStatus = invoiceStatus.OnGoing;
+        this.date = Calendar.getInstance();
     }
 
-
     /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa id invoice.
-    * @return id
-    */
-   public int getId(){
+     * getId untuk mendapatkan nilai dari property id
+     *
+     * @return nilai dari property id
+     */
+    public int getId() {
         return id;
     }
-    
+
     /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa idJob invoice.
-    * @return idJob
-    */
-    public ArrayList<Job>  getJobs(){
-        return jobs;
-    }
-    
-    /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa tanggal invoice.
-    * @return date
-    */
-    public Calendar getDate(){
+     * getId untuk mendapatkan nilai dari property date
+     *
+     * @return nilai dari property date
+     */
+    public Calendar getDate() {
         return date;
     }
-    
+
     /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa total fee invoice.
-    * @return totalFee
-    */
-    public int getTotalFee(){
+     * getTotalFee untuk mendapatkan nilai dari property totalFee
+     *
+     * @return nilai dari property totalFee
+     */
+    public int getTotalFee() {
         return totalFee;
     }
-    
+
     /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa jenis pembayaran.
-    * @return paymentType
-    */
-    public abstract PaymentType getPaymentType();
-    
-    /**
-    * Method asesor ini digunakan untuk mengembalikan nilai berupa status invoice.
-    * @return status
-    */
-    public InvoiceStatus getInvoiceStatus(){
-        return invoiceStatus;
-    }
-    
-    /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setId adalah nilai kembalian dari this.id yang didapat dari nilai id
-    * yang dimasukkan pada saat method ini dipanggil
-    */
-    public void setId(int id){
-        this.id = id;
-    }
-    /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setIdJobs adalah nilai kembalian dari this.idJob yang didapat dari nilai idJobs
-    * yang dimasukkan pada saat method ini dipanggil
-    */
-    public void setJobs(ArrayList<Job> jobs){
-        this.jobs = jobs;
-    }
-    /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setDate adalah nilai kembalian dari this.date yang didapat dari nilai date
-    * yang dimasukkan pada saat method ini dipanggil
-    */
-    public void setDate(Calendar date){
-        this.date = date;
-    }
-    public void setDate(int year, int month, int dayOfMonth){
-        this.date = new GregorianCalendar(year, month, dayOfMonth);
-    }
-    
-    /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setTotalFee adalah nilai kembalian dari this.totalFee 
-    * yang didapat dari nilai totalFee yang dimasukkan pada saat method ini dipanggil
-    */
-    public abstract void setTotalFee();
-    
-    /**
-    * Method accessor ini mendeklarasikan bahwa isi dari method getJobseeker adalah nilai kembalian dari jobseeker
-    */
+     * getJobseeker untuk mendapatkan nilai dari objek jobseeker
+     *
+     * @return nilai dari objek jobseeker
+     */
     public Jobseeker getJobseeker() {
         return jobseeker;
     }
-    
+
     /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
-    * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
-    */
+     * getPaymentType untuk mendapatkan nilai dari objek paymentType
+     *
+     * @return nilai dari objek paymentType
+     */
+    public abstract PaymentType getPaymentType();
+
+    /**
+     * getJobs untuk mendapatkan nilai dari objek jobs
+     *
+     * @return nilai dari objek jobs
+     */
+    public ArrayList<Job> getJobs() {
+        return jobs;
+    }
+
+    /**
+     * getInvoiceStatus untuk mendapatkan nilai dari objek invoiceStatus
+     *
+     * @return nilai dari objek status
+     */
+    public InvoiceStatus getInvoiceStatus() {
+        return invoiceStatus;
+    }
+
+    /**
+     * setId untuk menggantikan nilai dari property id
+     *
+     * @param id, property yang nilainya akan digantikan, dengan tipe int
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * setJob untuk menggantikan nilai dari property pada objek Jobs
+     *
+     * @param jobs, property yang nilainya akan digantikan, dengan tipe jobs
+     */
+    public void setJobs(ArrayList<Job> jobs) {
+        this.jobs = jobs;
+    }
+
+
+    /**
+     * setDate untuk menggantikan nilai dari property date
+     *
+     * @param date, property yang nilainya akan digantikan, dengan tipe String
+     */
+    public void setDate(Calendar date){
+        this.date = date;
+    }
+
+    /**
+     * setDate untuk menggantikan nilai year, month, dan dayOfMonth
+     *
+     * @param year, month, dan dayOfMonth
+     */
+    public void setDate(int year, int month, int dayOfMonth){
+        this.date = new GregorianCalendar(year, month-1, dayOfMonth);
+    }
+
+    /**
+     * setTotalFee untuk menggantikan nilai dari property totalFee
+     *
+     * @param , property yang nilainya akan digantikan, dengan tipe int
+     */
+    public abstract void setTotalFee();
+
+    /**
+     * setJobseeker untuk menggantikan nilai dari property pada objek jobseeker
+     *
+     * @param jobseeker, property yang nilainya akan digantikan, dengan tipe Jobseeker
+     */
     public void setJobseeker(Jobseeker jobseeker) {
         this.jobseeker = jobseeker;
     }
-    
+
     /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
-    * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
-    
-    public void setPaymentType(PaymentType paymentType) {
-        this.paymentType = paymentType;
-    } */
-    
-    /**
-    * Method mutator ini mendeklarasikan bahwa isi dari method setJobseeker adalah nilai kembalian dari this.jobseeker 
-    * yang didapat dari nilai jobseeker yang dimasukkan pada saat method ini dipanggil
-    */
+     * setInvoiceStatus untuk menggantikan nilai dari property pada objek invoiceStatus
+     *
+     * @param , property yang nilainya akan digantikan, dengan tipe status
+     */
     public void setInvoiceStatus(InvoiceStatus invoiceStatus) {
         this.invoiceStatus = invoiceStatus;
     }
 
-    public abstract void printData(); 
-    
-    
     /**
-    * Method ini berfungsi untuk menampilkan isi dari method getTotalFee pada class Invoice
-    
-    public void printData(){
-     System.out.println("===================== INVOICE =====================");
-        System.out.print("ID: " + id + "\n");
-        System.out.print("ID Job: " + idJob+ "\n");
-        System.out.print("Date: " + getDate() + "\n" );
-        System.out.print("Seeker: " + jobseeker.getName() + "\n" );
-        System.out.print("Fee: " + totalFee + "\n" );
-        System.out.print("Status: " + invoiceStatus + "\n");
-    }*/
-    
-    public String toString()
-    {
-        return ("Id = " + id + "\nID Job = " + idJob + "\nDate = " + getDate() + "\nSeeker = " + jobseeker.getName() + "\nFee = " + totalFee + "\nInvoice Status = " +invoiceStatus);
-    }
-    
+     * toString digunakan untuk menampilkan berbagai parameter
+     */
+    public abstract String toString();
 }

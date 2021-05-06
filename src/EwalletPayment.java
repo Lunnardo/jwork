@@ -44,7 +44,7 @@ public class EwalletPayment extends Invoice {
         }
     }
 
-    @Override
+
     public void printData() {
 
     }

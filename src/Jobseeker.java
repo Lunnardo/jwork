@@ -17,14 +17,14 @@ public class Jobseeker{
     private Calendar joinDate;
     private Pattern pattern;
 
-    public Jobseeker(int id, String name, String email, String password, Calendar joinDate)
-    {
-        this.id = id;
-        this.name = name;
-        setEmail(email);
-        setPassword(password);
-        this.joinDate = joinDate;
-    }
+    //public Jobseeker(int id, String name, String email, String password, Calendar joinDate)
+    //{
+    //    this.id = id;
+    //    this.name = name;
+     //   setEmail(email);
+     //   setPassword(password);
+     //   this.joinDate = joinDate;
+    //}
 
     public Jobseeker(int id, String name, String email, String password, int year, int month, int dayOfMonth) {
         this.id = id;
@@ -34,13 +34,13 @@ public class Jobseeker{
         this.joinDate = new GregorianCalendar(year, month, dayOfMonth);
     }
 
-    public Jobseeker(int id, String name, String email, String password)
-    {
-        this.id = id;
-        this.name = name;
-        this.email=email;
-        setPassword(password);
-    }
+   // public Jobseeker(int id, String name, String email, String password)
+    //{
+     //   this.id = id;
+     //   this.name = name;
+     //   this.email=email;
+      //  setPassword(password);
+    //}
     
     
     /**
@@ -48,7 +48,7 @@ public class Jobseeker{
     * @return this.id
     */
     public int getId(){
-        return this.id;
+        return id;
     }
     
     /**
@@ -56,7 +56,7 @@ public class Jobseeker{
     * @return this.name
     */
     public String getName(){
-        return this.name;
+        return name;
     }
     
     /**
@@ -64,7 +64,7 @@ public class Jobseeker{
     * @return this.email
     */
     public String getEmail(){
-        return this.email;
+        return email;
     }
     
     /**
@@ -72,7 +72,7 @@ public class Jobseeker{
     * @return this.password
     */
     public String getPassword(){
-        return this.password;
+        return password;
     }
     
     /**
@@ -80,7 +80,7 @@ public class Jobseeker{
     * @return this.joinDate
     */
     public Calendar getJoinDate(){
-        return this.joinDate;
+        return joinDate;
     }
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setId adalah nilai kembalian dari this.id 
