@@ -1,9 +1,36 @@
+import java.util.ArrayList;
 import java.util.GregorianCalendar;
 
 public class Jwork{
     public static void main(String[] args) throws EmailAlreadyExistsException, ReferralCodeAlreadyExistsException, JobNotFoundException, JobSeekerNotFoundException, RecruiterNotFoundException, BonusNotFoundException {
         System.out.println("Case Study Modul 7");
         Location location1 = new Location("DKI Jakarta", "Depok", "Kota Lahir");
+
+        ArrayList<Job> job1 = new ArrayList<Job>();
+        ArrayList<Job> job2 = new ArrayList<Job>();
+
+        try {
+            job1.add(new Job(10, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
+        } catch (RecruiterNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
+            job2.add(new Job(11, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
+        } catch (RecruiterNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(10, job1, DatabaseJobseeker.getJobseekerById(0)));
+        } catch (JobSeekerNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(10, job2, DatabaseJobseeker.getJobseekerById(0)));
+        } catch (JobSeekerNotFoundException e) {
+            e.printStackTrace();
+        }
 
         try {
             DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1, "Lunnardo Soekarno Lukias", "lunnardo@ui.ac.id", "lunnardo123", 2021, 03, 6));
@@ -51,5 +78,10 @@ public class Jwork{
 
         System.out.println("\n=========Database Bonus===============");
         System.out.println(DatabaseBonus.getBonusDatabase());
+
+        for (Invoice invoice : DatabaseInvoice.getInvoiceDatabase()){
+            new Thread(new FeeCalculator(invoice)).start();
+        }
+
     }
 }
