@@ -3,7 +3,7 @@ import java.util.GregorianCalendar;
 
 public class Jwork{
     public static void main(String[] args) throws EmailAlreadyExistsException, ReferralCodeAlreadyExistsException, JobNotFoundException, JobSeekerNotFoundException, RecruiterNotFoundException, BonusNotFoundException {
-        System.out.println("Case Study Modul 7");
+        System.out.println("Post Test Modul 7");
         Location location1 = new Location("DKI Jakarta", "Depok", "Kota Lahir");
 
         ArrayList<Job> job1 = new ArrayList<Job>();
