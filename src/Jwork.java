@@ -10,29 +10,6 @@ public class Jwork{
         ArrayList<Job> job2 = new ArrayList<Job>();
 
         try {
-            job1.add(new Job(10, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
-        } catch (RecruiterNotFoundException e) {
-            e.printStackTrace();
-        }
-        try {
-            job2.add(new Job(11, "Senior Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
-        } catch (RecruiterNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            DatabaseInvoice.addInvoice(new EwalletPayment(10, job1, DatabaseJobseeker.getJobseekerById(0)));
-        } catch (JobSeekerNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            DatabaseInvoice.addInvoice(new EwalletPayment(10, job2, DatabaseJobseeker.getJobseekerById(0)));
-        } catch (JobSeekerNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        try {
             DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1, "Lunnardo Soekarno Lukias", "lunnardo@ui.ac.id", "lunnardo123", 2021, 03, 6));
             DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1, "Lunnardo Soekarno Lukias", "lunnardo@ui.ac.id", "lunnardo123", 2021, 03, 6));
             DatabaseJobseeker.addJobseeker(new Jobseeker(DatabaseJobseeker.getLastId() + 1, "Lunnardo Soekarno Lukias", "lunnardo123@gmail.com", "lunnardo123", 2021, 04, 6));
@@ -41,7 +18,7 @@ public class Jwork{
             System.out.println(e.getMessage());
         }
             DatabaseRecruiter.addRecruiter(new Recruiter(DatabaseRecruiter.getLastId() + 1, "Lonnardi", "lonnardi@ui.ac.id", "081212344321", location1));
-
+            DatabaseRecruiter.addRecruiter(new Recruiter(DatabaseRecruiter.getLastId() + 1, "Hansaka", "Hansaka@ui.ac.id", "081212345678", location1));
 
         try {
             DatabaseBonus.addBonus(new Bonus(DatabaseBonus.getLastId() + 1, "PROMO1", 10000, 5000,true));
@@ -79,9 +56,53 @@ public class Jwork{
         System.out.println("\n=========Database Bonus===============");
         System.out.println(DatabaseBonus.getBonusDatabase());
 
-        for (Invoice invoice : DatabaseInvoice.getInvoiceDatabase()){
+        System.out.println("\n");
+        try {
+            job1.add(new Job(1, "Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 1000, JobCategory.BackEnd));
+        }
+        catch (RecruiterNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
+            job2.add(new Job(2, "Frontend Engineer", DatabaseRecruiter.getRecruiterById(2), 1000, JobCategory.FrontEnd));
+        }
+        catch (RecruiterNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(1, job1, DatabaseJobseeker.getJobseekerById(1)));
+        }
+        catch (JobSeekerNotFoundException | OngoingInvoiceAlreadyExistsException e) {
+            e.printStackTrace();
+        }
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(2, job2, DatabaseJobseeker.getJobseekerById(1)));
+        }
+        catch (JobSeekerNotFoundException | OngoingInvoiceAlreadyExistsException e) {
+            e.printStackTrace();
+        }
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(1, job1, DatabaseJobseeker.getJobseekerById(1)));
+        } catch (OngoingInvoiceAlreadyExistsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(2, job1, DatabaseJobseeker.getJobseekerById(1)));
+        } catch (OngoingInvoiceAlreadyExistsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            DatabaseInvoice.addInvoice(new EwalletPayment(3, job2, DatabaseJobseeker.getJobseekerById(1)));
+        } catch (OngoingInvoiceAlreadyExistsException e) {
+            System.out.println(e.getMessage());
+        }
+        for (Invoice invoice: DatabaseInvoice.getInvoiceDatabase()){
             new Thread(new FeeCalculator(invoice)).start();
         }
+
+
 
     }
 }

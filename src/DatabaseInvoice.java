@@ -14,14 +14,20 @@ public class DatabaseInvoice {
         return lastId;
     }
 
-    public static Invoice getInvoiceById(int id){
-        Invoice x = null;
+    public static Invoice getInvoiceById(int id) throws InvoiceNotFoundException {
+        Invoice result = null;
         for (Invoice invoice : INVOICE_DATABASE) {
             if (id == invoice.getId()) {
-                x = invoice;
+                result = invoice;
+            } else {
+                result = null;
             }
         }
-        return x;
+        if (result == null){
+            throw new InvoiceNotFoundException(id);
+        }
+
+        return result;
     }
 
     public static ArrayList<Invoice> getInvoiceByJobseeker(int jobseekerId){
@@ -51,29 +57,28 @@ public class DatabaseInvoice {
         return false;
     }
 
-    public static boolean addInvoice(Invoice invoice){
-        for (int i = 0; i < INVOICE_DATABASE.size(); i++)
-        {
-            if(INVOICE_DATABASE.get(i).getInvoiceStatus() == InvoiceStatus.OnGoing)
-            {
-                return false;
+    public static boolean addInvoice(Invoice invoice) throws OngoingInvoiceAlreadyExistsException{
+        for (Invoice invoicee : INVOICE_DATABASE) {
+            if (invoicee.getInvoiceStatus() == InvoiceStatus.OnGoing) {
+                throw new OngoingInvoiceAlreadyExistsException(invoice);
             }
         }
         INVOICE_DATABASE.add(invoice);
         lastId = invoice.getId();
         return true;
     }
+
     /**
      * Method asesor ini digunakan untuk mengembalikan nilai berupa nilai true untuk removeInvoice pada database invoice.
      * @return true
      */
-    public boolean removeInvoice(Invoice invoice, int id){
-        for (Invoice invoice_1 : INVOICE_DATABASE) {
-            if (invoice.getId() == invoice_1.getId()) {
+    public static boolean removeInvoice(int id) throws InvoiceNotFoundException{
+        for (Invoice invoice : INVOICE_DATABASE) {
+            if (invoice.getId() == id) {
                 INVOICE_DATABASE.remove(invoice);
                 return true;
             }
         }
-        return false;
+        throw new InvoiceNotFoundException(id);
     }
 }
