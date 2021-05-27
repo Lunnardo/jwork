@@ -14,19 +14,16 @@ public class Jwork{
         DatabaseRecruiter.addRecruiter(new Recruiter(DatabaseRecruiter.getLastId() + 1, "Lonnardi", "lonnardi@ui.ac.id", "081212344321", location1));
         DatabaseRecruiter.addRecruiter(new Recruiter(DatabaseRecruiter.getLastId() + 1, "Hansaka", "hansaka@ui.ac.id", "081212345678", location2));
         DatabaseRecruiter.addRecruiter(new Recruiter(DatabaseRecruiter.getLastId() + 1, "Bambang", "bambang@ui.ac.id", "081222334455", location3));
-        try {
-            DatabaseJob.addJob(new Job(14, "Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
-            DatabaseJob.addJob(new Job(15, "Frontend Engineer", DatabaseRecruiter.getRecruiterById(2), 10000, JobCategory.FrontEnd));
-            DatabaseJob.addJob(new Job(16, "UI Engineer", DatabaseRecruiter.getRecruiterById(2), 10000, JobCategory.UI));
-            DatabaseJob.addJob(new Job(17, "UI Engineer", DatabaseRecruiter.getRecruiterById(2), 10000, JobCategory.UI));
-        }
-        catch(RecruiterNotFoundException e){
-            e.printStackTrace();
-        }
+
+        DatabaseJob.addJob(new Job(14, "Backend Engineer", DatabaseRecruiter.getRecruiterById(1), 10000, JobCategory.BackEnd));
+        DatabaseJob.addJob(new Job(15, "Frontend Engineer", DatabaseRecruiter.getRecruiterById(2), 10000, JobCategory.FrontEnd));
+        DatabaseJob.addJob(new Job(16, "UI Engineer", DatabaseRecruiter.getRecruiterById(2), 10000, JobCategory.UI));
+        DatabaseJob.addJob(new Job(17, "UI Engineer", DatabaseRecruiter.getRecruiterById(3), 10000, JobCategory.UI));
+
 
 
         SpringApplication.run(Jwork.class, args);
-        System.out.println("Post Test Modul 8");
+        System.out.println("Case Study Modul 9");
 
 
         ArrayList<Job> job1 = new ArrayList<Job>();

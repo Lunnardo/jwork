@@ -1,10 +1,9 @@
 package lunnardosoekarnolukias.jwork.controller;
 
-import lunnardosoekarnolukias.jwork.DatabaseJobseeker;
-import lunnardosoekarnolukias.jwork.EmailAlreadyExistsException;
-import lunnardosoekarnolukias.jwork.JobSeekerNotFoundException;
-import lunnardosoekarnolukias.jwork.Jobseeker;
+import lunnardosoekarnolukias.jwork.*;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
 
 import static lunnardosoekarnolukias.jwork.DatabaseJobseeker.getJobseekerLogin;
 
@@ -12,12 +11,19 @@ import static lunnardosoekarnolukias.jwork.DatabaseJobseeker.getJobseekerLogin;
 @RestController
 public class JobseekerController {
 
+
     @RequestMapping("")
     public String indexPage(@RequestParam(value = "name", defaultValue = "world") String name) {
         return "Hello " + name;
     }
 
+    @RequestMapping("/all")
+    public ArrayList<Jobseeker> getAllJobseeker() {
+        ArrayList<Jobseeker> jobseeker = null;
 
+        jobseeker = DatabaseJobseeker.getDatabaseJobseeker();
+        return jobseeker;
+    }
 
 
     @RequestMapping("/{id}")

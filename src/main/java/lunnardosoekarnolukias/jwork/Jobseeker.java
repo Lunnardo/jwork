@@ -115,15 +115,16 @@ public class Jobseeker{
     * Method mutator ini mendeklarasikan bahwa isi dari method setPassword adalah nilai kembalian dari this.password 
     * yang didapat dari nilai password yang dimasukkan pada saat method ini dipanggil
     */
-    public void setPassword(String password){
-        String pattern = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$";
-        boolean isMatch = Pattern.matches(pattern, password);
-        if(isMatch){
-        this.password = password;
-    }
-    else
-    { this.password = " ";
-    }
+    public void setPassword(String password) {
+        String regex = "^.*(?=.*[a-z])|(?=.*[A-Z])|(?=.*\\d)[a-zA-Z\\d]{6,}.*$";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(password);
+        if(matcher.matches()){
+            this.password = password;
+        }
+        else{
+            this.password = " ";
+        }
     }
     /**
     * Method mutator ini mendeklarasikan bahwa isi dari method setJoinDate adalah nilai kembalian dari this.joinDate 
