@@ -11,19 +11,19 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public abstract class Invoice extends ArrayList<Invoice> {
+public abstract class Invoice {
     protected int totalFee;
     private int id;
     private Jobseeker jobseeker;
     private InvoiceStatus invoiceStatus;
     private ArrayList<Job> jobs;
-
     private Calendar date;
 
     public Invoice(int id, ArrayList<Job> jobs, Jobseeker jobseeker) {
         this.id = id;
         this.jobs = jobs;
         this.jobseeker = jobseeker;
+        this.invoiceStatus = InvoiceStatus.OnGoing;
         this.date = Calendar.getInstance();
     }
 

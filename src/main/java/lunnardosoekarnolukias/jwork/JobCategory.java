@@ -1,7 +1,7 @@
 package lunnardosoekarnolukias.jwork;
 public enum JobCategory
 {
-    WebDeveloper, FrontEnd, BackEnd, UI, UX, Devops, DataScientist, DataAnalyst;
+    WebDeveloper, FrontEnd, BackEnd, UI, UX, Devops, DataScientist, DataAnalyst,FullStack;
     
     public String toString(){
         switch(this)
@@ -22,6 +22,8 @@ public enum JobCategory
             return "Data Scientist";
             case DataAnalyst:
             return "Data Analyst";
+            case FullStack:
+                return "Full Stack";
             default:
             return null;
         }

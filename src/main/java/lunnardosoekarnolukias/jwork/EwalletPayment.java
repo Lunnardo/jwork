@@ -1,9 +1,6 @@
 package lunnardosoekarnolukias.jwork;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.ArrayList;
 
 public class EwalletPayment extends Invoice {
 
@@ -16,7 +13,7 @@ public class EwalletPayment extends Invoice {
 
     public EwalletPayment(int id, ArrayList<Job> jobs, Jobseeker jobseeker, Bonus bonus) {
         super(id, jobs, jobseeker);
-        this.setBonus(bonus);
+        this.bonus = bonus;
     }
 
     @Override

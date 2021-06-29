@@ -8,20 +8,22 @@ package lunnardosoekarnolukias.jwork;
 * @version 20210318
 */
 public class Location {
-    private String province, city, description;
+    private int id = 0;
+    private String province = "", city = "", description = "";
     
     /**
     * Field ini berfungsi untuk mendeklarasikan semua nilai yang akan dipakai pada method yang ada dibawahnya
     * Field ini bersifat mutator dimana semua nilai yang ditambahkan this dapat diubah secara manual per classnya
     * tanpa perlu menambahkannya dari class jwork
     */
-     public Location(String province, String city, String description)
-    {
+    public Location(int id, String province, String city, String description) {
+        this.id = id;
         this.province = province;
         this.city = city;
         this.description = description;
     }
     
+
     /**
     * Method accessor ini mendeklarasikan bahwa isi dari method getProvince adalah nilai kembalian dari this.province
     */
@@ -81,5 +83,12 @@ public class Location {
     {
         return ("Provinsi = " + getProvince() + "\nKota = " + getCity() + "\nDeskripsi = " + getDescription());
     }
-    
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

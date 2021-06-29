@@ -17,11 +17,11 @@ public class Job {
     * Field ini bersifat mutator dimana semua nilai yang ditambahkan this dapat diubah secara manual per classnya
     * tanpa perlu menambahkannya dari class jwork
     */
-    public Job(int id, String name, Recruiter recruiter, int fee, JobCategory category){
+    public Job(int id, String name, int fee, Recruiter recruiter, JobCategory category){
         this.id = id;
-        this.name = name; 
-        this.recruiter = recruiter;
+        this.name = name;
         this.fee= fee;
+        this.recruiter = recruiter;
         this.category = category;
     }
     

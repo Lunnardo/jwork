@@ -1,4 +1,11 @@
 package lunnardosoekarnolukias.jwork;
+/**
+ * Class BonusNotFoundException ini berfungsi menampilkan pesan error
+ * ketika Bonus yang dimaksud tidak ada
+ *
+ * @author Lunnardo Soekarno Lukias
+ * @version 2021.01.alpha
+ */
 public class BonusNotFoundException extends Exception {
     private int referral_error;
 
@@ -7,6 +14,9 @@ public class BonusNotFoundException extends Exception {
         referral_error = referral_input;
     }
 
+    /**
+     * Method getMessage ini ketika dipanggil akan menampilkan pesan bahwa Bonus tersebut tidak ditemukan
+     */
     public String getMessage() {
         return super.getMessage() + referral_error + " not found";
     }

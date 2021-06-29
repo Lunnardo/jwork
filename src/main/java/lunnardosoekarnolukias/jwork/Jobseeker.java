@@ -7,8 +7,10 @@ package lunnardosoekarnolukias.jwork;
 * @author Lunnardo Soekarno Lukias
 * @version 20210318
 */
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 public class Jobseeker{
@@ -26,13 +28,13 @@ public class Jobseeker{
      //   this.joinDate = joinDate;
     //}
 
-    //public Jobseeker(int id, String name, String email, String password, int year, int month, int dayOfMonth) {
-     //   this.id = id;
-     //   this.name = name;
-     //   this.email=email;
-     //   setPassword(password);
-     //   this.joinDate = new GregorianCalendar(year, month, dayOfMonth);
-    //}
+    public Jobseeker(int id, String name, String email, String password, int year, int month, int dayOfMonth) {
+        this.id = id;
+       this.name = name;
+        this.email=email;
+        this.password = password;
+        this.joinDate = new GregorianCalendar(year, month, dayOfMonth);
+    }
 
    public Jobseeker(int id, String name, String email, String password)
     {
@@ -40,9 +42,9 @@ public class Jobseeker{
         this.name = name;
         this.email=email;
         setPassword(password);
+        this.joinDate = joinDate;
     }
-    
-    
+
     /**
     * Method asesor ini digunakan untuk mengembalikan nilai berupa id jobseeker.
     * @return this.id

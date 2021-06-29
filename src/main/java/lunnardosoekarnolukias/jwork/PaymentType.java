@@ -1,19 +1,25 @@
 package lunnardosoekarnolukias.jwork;
 public enum PaymentType
 {
-    BankPayment, EwalletPayment;
-    
-    public String toString()
-    {
-        switch(this)
-        {
-            case BankPayment:
-            return "Bank Payment";
-            case EwalletPayment:
-            return "E-Wallet Payment";
-            default:
-            return null;
-        }
+    BankPayment("BankPayment"),
+    EwalletPayment("E-Wallet payment");
+
+    private String payment;
+
+    private PaymentType(String payment) {
+        this.payment = payment;
+    }
+
+    @Override
+    public String toString() {
+        return payment;
+    }
+
+    public static void main(String[] args) {
+        PaymentType bank = PaymentType.BankPayment;
+        PaymentType ewallet = PaymentType.EwalletPayment;
+        System.out.println(bank);
+        System.out.println(ewallet);
     }
     
 }

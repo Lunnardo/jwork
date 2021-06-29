@@ -8,14 +8,14 @@ package lunnardosoekarnolukias.jwork;
 * @version 20210318
 */
 public class Recruiter {
-    
-    private int id;
-    private String name, email, phoneNumber;
+
+    private int id = 0;
+    private String name = "", email = "", phoneNumber = "";
     private Location location;
     
     /**
-    * Field ini berfungsi untuk mendeklarasikan semua nilai yang akan dipakai pada method yang ada dibawahnya
-    * Field ini bersifat mutator dimana semua nilai yang ditambahkan this dapat diubah secara manual per classnya
+    * Constructor ini berfungsi untuk mendeklarasikan semua nilai yang akan dipakai pada method yang ada dibawahnya
+    * Constructor ini bersifat mutator dimana semua nilai yang ditambahkan this dapat diubah secara manual per classnya
     * tanpa perlu menambahkannya dari class jwork
     */
     public Recruiter(int id, String name, String email, String phoneNumber, Location location){
